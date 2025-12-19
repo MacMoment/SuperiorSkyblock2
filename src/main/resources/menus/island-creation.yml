@@ -2,15 +2,16 @@
 ##                                                  ##
 ##                SuperiorSkyblock 2                ##
 ##                Developed by Ome_R                ##
+##              Genphoria Custom Rework             ##
 ##                                                  ##
 ######################################################
 
-title: '&lCreate a new island...'
+title: '<#97CFF5>&lCreate Your Team'
 previous-menu: true
 
 pattern:
   - '~ ~ ~ ~ ~ ~ ~ ~ ~'
-  - '# @ # # ^ # # $ #'
+  - '~ @ ~ ~ ^ ~ ~ $ ~'
   - '~ ~ ~ ~ ~ ~ ~ ~ ~'
 
 items:
@@ -22,20 +23,25 @@ items:
       type: SKULL_ITEM
       data: 3
       skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ZDM3OTkzZTU5NDA4MjY3ODQ3MmJmOWQ4NjgyMzQxM2MyNTBkNDMzMmEyYzdkOGM1MmRlNDk3NmIzNjIifX19'
-      name: '&eNormal Island &a(Available)'
+      name: '<#97CFF5>&lNormal Island'
       lore:
-        - '&7Simple island with trees and a mining area!'
-        - '&7 '
-        - '&7&o(( &f&oRight-Click &7&oto preview the island. ))'
+        - '&7'
+        - '&7Simple island with trees'
+        - '&7and a mining area!'
+        - '&7'
+        - '&8(( &fLeft-Click &7to create &8))'
+        - '&8(( &fRight-Click &7to preview &8))'
     no-access:
       type: SKULL_ITEM
       data: 3
       skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ZDM3OTkzZTU5NDA4MjY3ODQ3MmJmOWQ4NjgyMzQxM2MyNTBkNDMzMmEyYzdkOGM1MmRlNDk3NmIzNjIifX19'
-      name: '&eNormal Island &c(Unavailable)'
+      name: '<#97CFF5>&lNormal Island &c(Locked)'
       lore:
-        - '&7Simple island with trees and a mining area!'
-        - '&7 '
-        - '&7&o(( &f&oRight-Click &7&oto preview the island. ))'
+        - '&7'
+        - '&7Simple island with trees'
+        - '&7and a mining area!'
+        - '&7'
+        - '&cYou do not have access to this island type.'
   '^':
     schematic: 'mycel'
     biome: MUSHROOM_ISLAND
@@ -44,20 +50,25 @@ items:
       type: SKULL_ITEM
       data: 3
       skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE0NWQxYjQxN2NiZGRjMjE3NjdiMDYwNDRlODk5YjI2NmJmNzhhNjZlMjE4NzZiZTNjMDUxNWFiNTVkNzEifX19'
-      name: '&eMycelium Island &a(Available)'
+      name: '<#97CFF5>&lMycelium Island'
       lore:
-        - '&7Customized island with lots of mycelium!'
-        - '&7 '
-        - '&7&o(( &f&oRight-Click &7&oto preview the island. ))'
+        - '&7'
+        - '&7Customized island with'
+        - '&7lots of mycelium!'
+        - '&7'
+        - '&8(( &fLeft-Click &7to create &8))'
+        - '&8(( &fRight-Click &7to preview &8))'
     no-access:
       type: SKULL_ITEM
       data: 3
       skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE0NWQxYjQxN2NiZGRjMjE3NjdiMDYwNDRlODk5YjI2NmJmNzhhNjZlMjE4NzZiZTNjMDUxNWFiNTVkNzEifX19'
-      name: '&eMycelium Island &c(Unavailable)'
+      name: '<#97CFF5>&lMycelium Island &c(Locked)'
       lore:
-        - '&7Customized island with lots of mycelium!'
-        - '&7 '
-        - '&7&o(( &f&oRight-Click &7&oto preview the island. ))'
+        - '&7'
+        - '&7Customized island with'
+        - '&7lots of mycelium!'
+        - '&7'
+        - '&cYou do not have access to this island type.'
   '$':
     schematic: 'desert'
     biome: DESERT
@@ -66,24 +77,28 @@ items:
       type: SKULL_ITEM
       data: 3
       skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVkYjMxMjA2N2JlMWQ1YzRmMTQ3OGFmM2NhMmY2Y2Y4MTA0YWI0Y2NiZmY1NzkxN2M4NTc4ZGFhMTUwMDJjMiJ9fX0='
-      name: '&eDesert Island &a(Available)'
+      name: '<#97CFF5>&lDesert Island'
       lore:
-        - '&7Customized island with lots of sand!'
-        - '&7 '
-        - '&7&o(( &f&oRight-Click &7&oto preview the island. ))'
+        - '&7'
+        - '&7Customized island with'
+        - '&7lots of sand!'
+        - '&7'
+        - '&8(( &fLeft-Click &7to create &8))'
+        - '&8(( &fRight-Click &7to preview &8))'
     no-access:
       type: SKULL_ITEM
       data: 3
       skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVkYjMxMjA2N2JlMWQ1YzRmMTQ3OGFmM2NhMmY2Y2Y4MTA0YWI0Y2NiZmY1NzkxN2M4NTc4ZGFhMTUwMDJjMiJ9fX0='
-      name: '&eDesert Island &c(Unavailable)'
+      name: '<#97CFF5>&lDesert Island &c(Locked)'
       lore:
-        - '&7Customized island with lots of sand!'
-        - '&7 '
-        - '&7&o(( &f&oRight-Click &7&oto preview the island. ))'
+        - '&7'
+        - '&7Customized island with'
+        - '&7lots of sand!'
+        - '&7'
+        - '&cYou do not have access to this island type.'
   '~':
-    type: STAINED_GLASS_PANE
-    data: 15
-    name: '&f'
+    type: GRAY_STAINED_GLASS_PANE
+    name: '&7'
 
 sounds:
   '@':
@@ -92,7 +107,7 @@ sounds:
       volume: 1
       pitch: 0.2
     no-access:
-      type: ANVIL_LAND
+      type: VILLAGER_NO
       volume: 0.2
       pitch: 0.2
   '^':
@@ -101,7 +116,7 @@ sounds:
       volume: 1
       pitch: 0.2
     no-access:
-      type: ANVIL_LAND
+      type: VILLAGER_NO
       volume: 0.2
       pitch: 0.2
   '$':
@@ -110,6 +125,6 @@ sounds:
       volume: 1
       pitch: 0.2
     no-access:
-      type: ANVIL_LAND
+      type: VILLAGER_NO
       volume: 0.2
       pitch: 0.2

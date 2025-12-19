@@ -2,19 +2,20 @@
 ##                                                  ##
 ##                SuperiorSkyblock 2                ##
 ##                Developed by Ome_R                ##
+##              Genphoria Custom Rework             ##
 ##                                                  ##
 ######################################################
 
-title: '&lIsland Visitors ({0})'
+title: '<#97CFF5>&lTeam Visitors ({0})'
 previous-menu: true
 
 pattern:
-  - '@ @ @ @ @ @ @ @ @'
-  - '@ @ @ @ @ @ @ @ @'
-  - '@ @ @ @ @ @ @ @ @'
-  - '@ @ @ @ @ @ @ @ @'
+  - '$ $ $ $ $ $ $ $ $'
+  - '$ @ @ @ @ @ @ @ $'
+  - '$ @ @ @ @ @ @ @ $'
+  - '$ @ @ @ @ @ @ @ $'
   - '$ $ $ $ ~ $ $ $ $'
-  - '# # % # * # ^ # #'
+  - '$ $ % $ * $ ^ $ $'
 
 slots: '@'
 previous-page: '%'
@@ -26,28 +27,42 @@ items:
   '@':
     type: SKULL_ITEM
     data: 3
-    name: '&e{0}'
+    name: '<#97CFF5>&l{0}'
     lore:
-      - '&7Island Owner: {1}'
-      - ''
-      - '&7Left-Click to expel the player.'
-      - '&7Right-Click to invite the player.'
+      - '&7'
+      - '<#97CFF5>&l| &fTeam Owner: &7{1}'
+      - '&7'
+      - '&8(( &fLeft-Click &7to expel &8))'
+      - '&8(( &fRight-Click &7to invite &8))'
   '%':
-    type: PAPER
-    name: '{0}Previous Page'
+    type: ARROW
+    name: '<#97CFF5>&lPrevious Page'
+    lore:
+      - '&7'
+      - '&8(( &fClick &7to go back &8))'
   '*':
-    type: DOUBLE_PLANT
-    name: '&aCurrent Page'
+    type: SUNFLOWER
+    name: '<#97CFF5>&lCurrent Page'
     lore:
-      - '&7Page {0}'
+      - '&7'
+      - '<#97CFF5>&l| &fPage: &7{0}'
   '^':
-    type: PAPER
-    name: '{0}Next Page'
-  '~':
-    type: SKULL_ITEM
-    name: '&eUnique Visitors'
+    type: ARROW
+    name: '<#97CFF5>&lNext Page'
     lore:
-      - '&7Click to open all-time visitors menu.'
+      - '&7'
+      - '&8(( &fClick &7to go forward &8))'
+  '~':
+    type: BOOK
+    name: '<#97CFF5>&lUnique Visitors'
+    lore:
+      - '&7'
+      - '&7View all-time visitors.'
+      - '&7'
+      - '&8(( &fClick &7to open &8))'
+  '$':
+    type: GRAY_STAINED_GLASS_PANE
+    name: '&7'
   '$':
     type: STAINED_GLASS_PANE
     data: 15
