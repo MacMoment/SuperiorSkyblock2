@@ -63,10 +63,6 @@ items:
   '$':
     type: GRAY_STAINED_GLASS_PANE
     name: '&7'
-  '$':
-    type: STAINED_GLASS_PANE
-    data: 15
-    name: '&f'
 
 sounds:
   '@':

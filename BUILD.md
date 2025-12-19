@@ -86,10 +86,69 @@ The following team upgrades are available:
 ### Toggle Menu Command
 Use `/is togglemenu` or `/is toggle menu` to toggle whether `/is` opens the panel menu or teleports you directly to your island.
 
+### Team Points System
+
+Team Points are a currency used for purchasing upgrades. Admins can give team points using:
+
+```
+/is admin giveteampoints <player/island> <amount>
+/is admin setteampoints <player/island> <amount>
+```
+
+### Player Stats Tracking
+
+The plugin tracks player statistics for the leaderboard system:
+- **Farming** - Total crops farmed
+- **Fishing** - Total fish caught
+- **Money** - Player's money contribution
+- **Tokens** - Player's token contribution
+
+Admin commands for managing stats:
+```
+/is admin setplayerstats <player> <farming/fishing/money/tokens> <amount>
+```
+
+### Leaderboard Points System
+
+Teams earn leaderboard points based on member contributions:
+- **Farming:** 1 point per 10,000 crops farmed
+- **Fishing:** 1 point per 100 fish caught
+- **Money:** 1 point per $10,000,000
+- **Tokens:** 1 point per 10,000 tokens
+
+### Team Info Command
+
+View detailed team statistics and member contributions:
+```
+/is teaminfo [player/island-name]
+```
+
+This shows:
+- Team name and owner
+- Total team points
+- Team statistics (farming, fishing, money, tokens)
+- Points breakdown for each stat
+- Member contributions ranked by points
+
 ### Configuration Files
 - `config.yml` - Main configuration with Genphoria defaults
 - `lang/en-US.yml` - English language file with Genphoria prefix
 - `menus/*.yml` - All menus updated with Genphoria styling
+- `menus/team-leaderboard.yml` - Team leaderboard menu configuration
+
+### New Admin Commands
+| Command | Description |
+|---------|-------------|
+| `/is admin giveteampoints <player/island> <amount>` | Give team points to an island |
+| `/is admin setteampoints <player/island> <amount>` | Set team points for an island |
+| `/is admin setplayerstats <player> <stat> <amount>` | Set a player's stat value |
+
+### New Player Commands
+| Command | Description |
+|---------|-------------|
+| `/is teaminfo [player/island]` | View detailed team statistics |
+| `/is togglemenu` | Toggle menu on/off for /is command |
+| `/is toggle menu` | Same as togglemenu |
 
 ## Support
 

@@ -1,0 +1,145 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##              Genphoria Custom Rework             ##
+##                                                  ##
+######################################################
+
+# This is the Team Top Leaderboard menu configuration.
+# It shows teams ranked by different stats:
+# - Farming (1 point per 10k farmed)
+# - Fishing (1 point per 100 fish caught)
+# - Money (1 point per 10 million)
+# - Tokens (1 point per 10k tokens)
+#
+# The leaderboard data is stored using the plugin's
+# persistent data system and tracked by admin commands:
+# /is admin setplayerstats <player> <stat> <amount>
+# /is admin giveteampoints <team> <amount>
+
+title: '<#97CFF5>&lTeam Leaderboard'
+previous-menu: true
+
+pattern:
+  - '~ ~ ~ ~ ~ ~ ~ ~ ~'
+  - '@ % @ @ @ # @ @ @'
+  - '@ * @ @ # # # @ @'
+  - '@ ^ @ # # # # # @'
+  - '@ & @ @ @ $ @ @ @'
+  - '~ ~ ! ~ - ~ + ~ ~'
+
+slots: '#'
+previous-page: '!'
+current-page: '-'
+next-page: '+'
+
+player-island: '$'
+sort-glow-when-selected: true
+
+items:
+  '#':
+    island:
+      type: SKULL_ITEM
+      data: 3
+      name: '<#97CFF5>&l#{1} &f{0}'
+      lore:
+        - '&7'
+        - '<#97CFF5>&l| &fTeam Statistics'
+        - '&7'
+        - '<#97CFF5>&l| &fLevel: &7{2}'
+        - '<#97CFF5>&l| &fWorth: &7${3}'
+        - '<#97CFF5>&l| &fRating: &7{8} ({9})'
+        - '<#97CFF5>&l| &fMembers: &7{10}'
+        - '&7'
+        - '<#97CFF5>&l| &fLeaderboard Points'
+        - '&7Use /is teaminfo to see'
+        - '&7detailed contribution stats.'
+        - '&7'
+        - '&8(( &fLeft-Click &7to view info &8))'
+        - '&8(( &fRight-Click &7to teleport &8))'
+    no-island:
+      type: SKULL_ITEM
+      data: 3
+      name: '&7Empty Slot'
+  '%':
+    type: DIAMOND
+    sorting-type: 'WORTH'
+    name: '<#97CFF5>&lSort by Worth'
+    lore:
+      - '&7'
+      - '&7Sort teams by total worth value.'
+      - '&7'
+      - '&8(( &fClick &7to sort &8))'
+  '*':
+    type: GOLD_INGOT
+    sorting-type: 'LEVEL'
+    name: '<#97CFF5>&lSort by Level'
+    lore:
+      - '&7'
+      - '&7Sort teams by island level.'
+      - '&7'
+      - '&8(( &fClick &7to sort &8))'
+  '^':
+    type: EMERALD
+    sorting-type: 'RATING'
+    name: '<#97CFF5>&lSort by Rating'
+    lore:
+      - '&7'
+      - '&7Sort teams by average rating.'
+      - '&7'
+      - '&8(( &fClick &7to sort &8))'
+  '&':
+    type: SKULL_ITEM
+    data: 3
+    sorting-type: 'PLAYERS'
+    name: '<#97CFF5>&lSort by Players'
+    lore:
+      - '&7'
+      - '&7Sort teams by member count.'
+      - '&7'
+      - '&8(( &fClick &7to sort &8))'
+  '@':
+    type: BOOK
+    name: '<#97CFF5>&lPoints System'
+    lore:
+      - '&7'
+      - '<#97CFF5>&l| &fHow Points Work'
+      - '&7'
+      - '&7Teams earn leaderboard points'
+      - '&7based on member contributions:'
+      - '&7'
+      - '<#97CFF5>&l| &fFarming: &71pt / 10,000 crops'
+      - '<#97CFF5>&l| &fFishing: &71pt / 100 fish'
+      - '<#97CFF5>&l| &fMoney: &71pt / $10,000,000'
+      - '<#97CFF5>&l| &fTokens: &71pt / 10,000 tokens'
+      - '&7'
+      - '&7Use &f/is teaminfo &7to view'
+      - '&7detailed stats for any team.'
+  '!':
+    type: ARROW
+    name: '<#97CFF5>&lPrevious Page'
+    lore:
+      - '&7'
+      - '&8(( &fClick &7to go back &8))'
+  '-':
+    type: SUNFLOWER
+    name: '<#97CFF5>&lCurrent Page'
+    lore:
+      - '&7'
+      - '<#97CFF5>&l| &fPage: &7{0}'
+  '+':
+    type: ARROW
+    name: '<#97CFF5>&lNext Page'
+    lore:
+      - '&7'
+      - '&8(( &fClick &7to go forward &8))'
+  '~':
+    type: GRAY_STAINED_GLASS_PANE
+    name: '&7'
+
+sounds:
+  '@':
+    type: ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
