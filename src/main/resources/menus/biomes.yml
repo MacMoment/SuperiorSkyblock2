@@ -2,26 +2,26 @@
 ##                                                  ##
 ##                SuperiorSkyblock 2                ##
 ##                Developed by Ome_R                ##
+##              Genphoria Custom Rework             ##
 ##                                                  ##
 ######################################################
 
-title: '&lSelect a biome'
+title: '<#97CFF5>&lSelect Biome'
 previous-menu: true
 
 pattern:
   - '$ $ $ $ $ $ $ $ $'
-  - '# ! # % # & # ~ #'
-  - '# # @ # ^ # * # #'
+  - '$ ! $ % $ & $ ~ $'
+  - '$ $ @ $ ^ $ * $ $'
   - '$ $ $ $ $ $ $ $ $'
 
 # Should the current biome be glowing?
-current-biome-glow: false
+current-biome-glow: true
 
 items:
   '$':
-    type: STAINED_GLASS_PANE
-    data: 15
-    name: '&f'
+    type: GRAY_STAINED_GLASS_PANE
+    name: '&7'
   '!':
     biome: PLAINS
     access:

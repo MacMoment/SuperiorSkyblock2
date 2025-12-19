@@ -56,6 +56,8 @@ public class PlayerCommandsMap extends CommandsMap {
         registerCommand(new CmdShow());
         registerCommand(new CmdTeam());
         registerCommand(new CmdTeamChat());
+        // Genphoria: Team info command
+        registerCommand(new CmdTeamInfo());
         registerCommand(new CmdTeleport());
         registerCommand(new CmdToggle());
         registerCommand(new CmdTop());

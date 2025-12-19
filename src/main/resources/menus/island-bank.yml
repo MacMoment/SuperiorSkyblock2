@@ -2,86 +2,108 @@
 ##                                                  ##
 ##                SuperiorSkyblock 2                ##
 ##                Developed by Ome_R                ##
+##              Genphoria Custom Rework             ##
 ##                                                  ##
 ######################################################
 
-title: '&lIsland Bank'
+title: '<#97CFF5>&lTeam Bank'
 previous-menu: true
 
 pattern:
-  - '= - @ @ @ @ @ - ='
-  - '- @ ! @ @ @ % @ -'
-  - '@ # @ @ * @ @ ^ @'
-  - '- @ $ @ @ @ & @ -'
-  - '= - @ @ ~ @ @ - ='
+  - '= = = = = = = = ='
+  - '= = ! = * = % = ='
+  - '= # = = = = = ^ ='
+  - '= = $ = ~ = & = ='
+  - '= = = = = = = = ='
 
 balance: '*'
 logs: '~'
 
 items:
   '!':
-    type: STAINED_GLASS_PANE
-    data: 5
-    name: '&aDeposit Half Money'
+    type: LIME_STAINED_GLASS_PANE
+    name: '<#97CFF5>&lDeposit Half'
     lore:
-      - '&7Deposit half of your money into the bank.'
+      - '&7'
+      - '&7Deposit 50% of your money'
+      - '&7into the team bank.'
+      - '&7'
+      - '&8(( &fClick &7to deposit &8))'
     bank-action:
       deposit: 50.0
   '#':
-    type: STAINED_GLASS_PANE
-    data: 5
-    name: '&aDeposit Money'
+    type: LIME_STAINED_GLASS_PANE
+    name: '<#97CFF5>&lDeposit Custom'
     lore:
-      - '&7Deposit money into the bank.'
+      - '&7'
+      - '&7Enter a custom amount to'
+      - '&7deposit into the team bank.'
+      - '&7'
+      - '&8(( &fClick &7to enter amount &8))'
     bank-action:
       deposit: 0.0
   '$':
-    type: STAINED_GLASS_PANE
-    data: 5
-    name: '&aDeposit All Money'
+    type: LIME_STAINED_GLASS_PANE
+    name: '<#97CFF5>&lDeposit All'
     lore:
-      - '&7Deposit all of your money into the bank.'
+      - '&7'
+      - '&7Deposit all your money'
+      - '&7into the team bank.'
+      - '&7'
+      - '&8(( &fClick &7to deposit &8))'
     bank-action:
       deposit: 100.0
   '%':
-    type: STAINED_GLASS_PANE
-    data: 14
-    name: '&aWithdraw Half Money'
+    type: RED_STAINED_GLASS_PANE
+    name: '<#97CFF5>&lWithdraw Half'
     lore:
-      - '&7Withdraw half of the money from the bank.'
+      - '&7'
+      - '&7Withdraw 50% of bank funds.'
+      - '&7'
+      - '&8(( &fClick &7to withdraw &8))'
     bank-action:
       withdraw: 50.0
   '^':
-    type: STAINED_GLASS_PANE
-    data: 14
-    name: '&aWithdraw Money'
+    type: RED_STAINED_GLASS_PANE
+    name: '<#97CFF5>&lWithdraw Custom'
     lore:
-      - '&7Withdraw money from the bank.'
+      - '&7'
+      - '&7Enter a custom amount to'
+      - '&7withdraw from the team bank.'
+      - '&7'
+      - '&8(( &fClick &7to enter amount &8))'
     bank-action:
       withdraw: 0.0
   '&':
-    type: STAINED_GLASS_PANE
-    data: 14
-    name: '&aWithdraw All Money'
+    type: RED_STAINED_GLASS_PANE
+    name: '<#97CFF5>&lWithdraw All'
     lore:
-      - '&7Withdraw all of the money from the bank.'
+      - '&7'
+      - '&7Withdraw all money from'
+      - '&7the team bank.'
+      - '&7'
+      - '&8(( &fClick &7to withdraw &8))'
     bank-action:
       withdraw: 100.0
   '*':
-    type: PAPER
-    name: '&6Balance'
-    lore:
-      - '&7Your bank currently has ${2}'
-      - '&7Next interest on {7}'
-  '=':
-    type: EMERALD_BLOCK
-    name: '&f '
-  '-':
     type: EMERALD
-    name: '&f '
+    name: '<#97CFF5>&lBalance'
+    lore:
+      - '&7'
+      - '<#97CFF5>&l| &fBank Balance: &7${2}'
+      - '<#97CFF5>&l| &fNext Interest: &7{7}'
+      - '&7'
+  '=':
+    type: GRAY_STAINED_GLASS_PANE
+    name: '&7'
   '~':
-    type: EXP_BOTTLE
-    name: '&6Transaction Logs'
+    type: BOOK
+    name: '<#97CFF5>&lTransaction Logs'
+    lore:
+      - '&7'
+      - '&7View recent bank transactions.'
+      - '&7'
+      - '&8(( &fClick &7to view logs &8))'
 
 sounds:
   '!':

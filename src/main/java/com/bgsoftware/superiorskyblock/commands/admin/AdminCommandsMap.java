@@ -32,6 +32,8 @@ public class AdminCommandsMap extends CommandsMap {
         registerCommand(new CmdAdminDemote());
         registerCommand(new CmdAdminDisband());
         registerCommand(new CmdAdminFly());
+        // Genphoria: Team points commands
+        registerCommand(new CmdAdminGiveTeamPoints());
         registerCommand(new CmdAdminIgnore());
         registerCommand(new CmdAdminJoin());
         registerCommand(new CmdAdminKick());
@@ -60,12 +62,16 @@ public class AdminCommandsMap extends CommandsMap {
         registerCommand(new CmdAdminSetIslandPreview());
         registerCommand(new CmdAdminSetLeader());
         registerCommand(new CmdAdminSetPermission());
+        // Genphoria: Player stats command
+        registerCommand(new CmdAdminSetPlayerStats());
         registerCommand(new CmdAdminSetRate());
         registerCommand(new CmdAdminSetRoleLimit());
         registerCommand(new CmdAdminSetSettings());
         registerCommand(new CmdAdminSetSize());
         registerCommand(new CmdAdminSetSpawn());
         registerCommand(new CmdAdminSetTeamLimit());
+        // Genphoria: Set team points command
+        registerCommand(new CmdAdminSetTeamPoints());
         registerCommand(new CmdAdminSettings());
         registerCommand(new CmdAdminSetWarpsLimit());
         registerCommand(new CmdAdminShow());

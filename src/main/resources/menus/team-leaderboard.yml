@@ -2,8 +2,21 @@
 ##                                                  ##
 ##                SuperiorSkyblock 2                ##
 ##                Developed by Ome_R                ##
+##              Genphoria Custom Rework             ##
 ##                                                  ##
 ######################################################
+
+# This is the Team Top Leaderboard menu configuration.
+# It shows teams ranked by different stats:
+# - Farming (1 point per 10k farmed)
+# - Fishing (1 point per 100 fish caught)
+# - Money (1 point per 10 million)
+# - Tokens (1 point per 10k tokens)
+#
+# The leaderboard data is stored using the plugin's
+# persistent data system and tracked by admin commands:
+# /is admin setplayerstats <player> <stat> <amount>
+# /is admin giveteampoints <team> <amount>
 
 title: '<#97CFF5>&lTeam Leaderboard'
 previous-menu: true
@@ -39,8 +52,9 @@ items:
         - '<#97CFF5>&l| &fRating: &7{8} ({9})'
         - '<#97CFF5>&l| &fMembers: &7{10}'
         - '&7'
-        - '<#97CFF5>&l| &fTeam Members:'
-        - '{4}:&7  - &f{}'
+        - '<#97CFF5>&l| &fLeaderboard Points'
+        - '&7Use /is teaminfo to see'
+        - '&7detailed contribution stats.'
         - '&7'
         - '&8(( &fLeft-Click &7to view info &8))'
         - '&8(( &fRight-Click &7to teleport &8))'
@@ -85,6 +99,23 @@ items:
       - '&7Sort teams by member count.'
       - '&7'
       - '&8(( &fClick &7to sort &8))'
+  '@':
+    type: BOOK
+    name: '<#97CFF5>&lPoints System'
+    lore:
+      - '&7'
+      - '<#97CFF5>&l| &fHow Points Work'
+      - '&7'
+      - '&7Teams earn leaderboard points'
+      - '&7based on member contributions:'
+      - '&7'
+      - '<#97CFF5>&l| &fFarming: &71pt / 10,000 crops'
+      - '<#97CFF5>&l| &fFishing: &71pt / 100 fish'
+      - '<#97CFF5>&l| &fMoney: &71pt / $10,000,000'
+      - '<#97CFF5>&l| &fTokens: &71pt / 10,000 tokens'
+      - '&7'
+      - '&7Use &f/is teaminfo &7to view'
+      - '&7detailed stats for any team.'
   '!':
     type: ARROW
     name: '<#97CFF5>&lPrevious Page'
