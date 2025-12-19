@@ -5,7 +5,7 @@
 ##                                                  ##
 ######################################################
 
-title: '&lIsland Panel'
+title: '<#97CFF5>&lTeam Panel'
 previous-menu: true
 
 pattern:
@@ -21,76 +21,114 @@ visitors: '-'
 
 items:
   '!':
-    type: SIGN
-    name: '&eTeleport'
-    lore:
-      - '&7Teleport back to your island.'
-  '@':
-    type: DIODE
-    name: '&eIsland Settings'
-    lore:
-      - '&7Manage settings regarding your island.'
-  '$':
     type: ENDER_PEARL
-    name: '&eIsland Permissions'
+    name: '<#97CFF5>&lTeleport'
     lore:
-      - '&7Manage permissions in your island.'
+      - '&7'
+      - '&7Teleport back to your team island.'
+      - '&7'
+      - '&8(( &fClick &7to teleport &8))'
+  '@':
+    type: COMPARATOR
+    name: '<#97CFF5>&lTeam Settings'
+    lore:
+      - '&7'
+      - '&7Manage settings regarding your team.'
+      - '&7'
+      - '&8(( &fClick &7to open settings &8))'
+  '$':
+    type: ENDER_EYE
+    name: '<#97CFF5>&lTeam Permissions'
+    lore:
+      - '&7'
+      - '&7Manage permissions in your team.'
+      - '&7'
+      - '&8(( &fClick &7to manage permissions &8))'
   '%':
-    type: GRASS
-    name: '&eIsland Biomes'
+    type: GRASS_BLOCK
+    name: '<#97CFF5>&lTeam Biomes'
     lore:
-      - '&7Change the biome of your island.'
+      - '&7'
+      - '&7Change the biome of your team island.'
+      - '&7'
+      - '&8(( &fClick &7to change biome &8))'
   '_':
     type: EMERALD
-    name: '&eIsland Bank'
+    name: '<#97CFF5>&lTeam Bank'
     lore:
-      - '&7Open the bank of your island.'
+      - '&7'
+      - '&7Open the bank of your team.'
+      - '&7'
+      - '&8(( &fClick &7to open bank &8))'
   '^':
-    type: GOLD_INGOT
-    name: '&eIsland Upgrades'
+    type: NETHER_STAR
+    name: '<#97CFF5>&lTeam Upgrades'
     lore:
-      - '&7Upgrade your island statistics!'
+      - '&7'
+      - '&7Upgrade your team statistics!'
+      - '&7'
+      - '&8(( &fClick &7to view upgrades &8))'
   '&':
     type: BEACON
-    name: '&eTop Islands'
+    name: '<#97CFF5>&lTop Teams'
     lore:
-      - '&7Check which island is the best on the server!'
+      - '&7'
+      - '&7Check which team is the best on the server!'
+      - '&7'
+      - '&8(( &fClick &7to view leaderboard &8))'
   '*':
-    type: PAPER
-    name: '&eIsland Missions'
+    type: BOOK
+    name: '<#97CFF5>&lTeam Missions'
     lore:
+      - '&7'
       - '&7Complete missions and get rewarded!'
+      - '&7'
+      - '&8(( &fClick &7to view missions &8))'
   '1':
-    type: SMOOTH_BRICK
-    name: '&eIsland Counts'
+    type: STONE_BRICKS
+    name: '<#97CFF5>&lTeam Counts'
     lore:
-      - '&7See all the blocks on your island!'
+      - '&7'
+      - '&7See all the blocks on your team island!'
+      - '&7'
+      - '&8(( &fClick &7to view counts &8))'
   '~':
     type: BARRIER
-    name: '&eIsland Disband'
+    name: '&c&lDisband Team'
     lore:
-      - '&7Disband your island.'
+      - '&7'
+      - '&7Disband your team.'
       - '&cThis action cannot be restored!'
+      - '&7'
+      - '&8(( &fClick &7to disband &8))'
   '=':
     type: CHEST
-    name: '&eIsland Chest'
+    name: '<#97CFF5>&lTeam Chest'
     lore:
-      - '&7Open the community chest of the island.'
+      - '&7'
+      - '&7Open the community chest of the team.'
+      - '&7'
+      - '&8(( &fClick &7to open chest &8))'
   '-':
     type: SKULL_ITEM
-    name: '&eIsland Visitors'
+    name: '<#97CFF5>&lTeam Visitors'
     lore:
-      - '&7Check all the visitors of the island.'
+      - '&7'
+      - '&7Check all the visitors of the team island.'
+      - '&7'
+      - '&8(( &fClick &7to view visitors &8))'
   '+':
     type: SKULL_ITEM
     data: 3
-    name: '&eIsland Members'
+    name: '<#97CFF5>&lTeam Members'
     lore:
-      - '&7Manage the members of the island.'
+      - '&7'
+      - '&7Manage the members of your team.'
+      - '&7'
+      - '&8(( &fClick &7to manage members &8))'
   '2':
-    type: STAINED_GLASS_PANE
-    data: 15
-    name: '&f'
+    type: GRAY_STAINED_GLASS_PANE
+    name: '&7'
 
 sounds:
   '!':

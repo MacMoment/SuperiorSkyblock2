@@ -32,11 +32,11 @@ database:
 # Set the main command of the plugin.
 # You can add aliases by adding "," after the command name, and split them using ",".
 # You must have a full restart in order to apply changes for the command.
-island-command: 'island,is,islands'
+island-command: 'island,is,islands,team,clan,p,plot'
 
 # Set the maximum island size. Island distances is 3 times bigger than the max size.
 # Please, do not change it while you have a running islands world!
-max-island-size: 200
+max-island-size: 250
 
 # All the default values for new islands that are created.
 # Please note: Upgrades with built-in values (upgrades that don't run commands to update values),
@@ -45,7 +45,7 @@ max-island-size: 200
 # the upgrade, and not from here.
 default-values:
   # The default island size of all islands.
-  island-size: 20
+  island-size: 125
 
   # Set the default block limits of all islands.
   # The following example will set a limit of 8 hoppers in islands:
@@ -53,7 +53,7 @@ default-values:
   #     HOPPER: 8
   # You can find a list of materials here: https://bg-software.com/materials/
   block-limits:
-    HOPPER: 8
+    HOPPER: 50
 
   # Set the default entity limits of all islands.
   # The following example will set a limit of 4 Minecarts in islands:
