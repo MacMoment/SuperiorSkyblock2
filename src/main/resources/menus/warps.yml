@@ -2,19 +2,19 @@
 ##                                                  ##
 ##                SuperiorSkyblock 2                ##
 ##                Developed by Ome_R                ##
+##              Genphoria Custom Rework             ##
 ##                                                  ##
 ######################################################
 
-title: '&lIsland Warps'
+title: '<#97CFF5>&lTeam Warps'
 previous-menu: true
 
 pattern:
-  - '@ @ @ @ @ @ @ @ @'
-  - '@ @ @ @ @ @ @ @ @'
-  - '@ @ @ @ @ @ @ @ @'
-  - '@ @ @ @ @ @ @ @ @'
   - '$ $ $ $ $ $ $ $ $'
-  - '# # % # * # ^ # #'
+  - '$ @ @ @ @ @ @ @ $'
+  - '$ @ @ @ @ @ @ @ $'
+  - '$ @ @ @ @ @ @ @ $'
+  - '$ $ % $ * $ ^ $ $'
 
 slots: '@'
 previous-page: '%'
@@ -23,32 +23,38 @@ next-page: '^'
 
 # This lore is added to warp icons.
 edit-lore:
-  - '&f '
-  - '&f '
-  - '&7&o(( &f&oLeft-Click &7&oto warp to the location. ))'
-  - '&7&o(( &f&oRight-Click &7&oto edit warp. ))'
+  - '&7'
+  - '&8(( &fLeft-Click &7to teleport &8))'
+  - '&8(( &fRight-Click &7to edit &8))'
 
 items:
   '@':
     type: BOOK
-    name: '&e{0} {2}'
+    name: '<#97CFF5>&l{0} {2}'
     lore:
-      - '&7Located at {1}.'
+      - '&7'
+      - '<#97CFF5>&l| &fLocation: &7{1}'
   '%':
-    type: PAPER
-    name: '{0}Previous Page'
-  '*':
-    type: DOUBLE_PLANT
-    name: '&aCurrent Page'
+    type: ARROW
+    name: '<#97CFF5>&lPrevious Page'
     lore:
-      - '&7Page {0}'
+      - '&7'
+      - '&8(( &fClick &7to go back &8))'
+  '*':
+    type: SUNFLOWER
+    name: '<#97CFF5>&lCurrent Page'
+    lore:
+      - '&7'
+      - '<#97CFF5>&l| &fPage: &7{0}'
   '^':
-    type: PAPER
-    name: '{0}Next Page'
+    type: ARROW
+    name: '<#97CFF5>&lNext Page'
+    lore:
+      - '&7'
+      - '&8(( &fClick &7to go forward &8))'
   '$':
-    type: STAINED_GLASS_PANE
-    data: 15
-    name: '&f'
+    type: GRAY_STAINED_GLASS_PANE
+    name: '&7'
 
 sounds:
   '@':

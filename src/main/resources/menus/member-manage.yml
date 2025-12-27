@@ -2,10 +2,11 @@
 ##                                                  ##
 ##                SuperiorSkyblock 2                ##
 ##                Developed by Ome_R                ##
+##              Genphoria Custom Rework             ##
 ##                                                  ##
 ######################################################
 
-title: '&8&l{}'
+title: '<#97CFF5>&l{}'
 previous-menu: true
 
 pattern:
@@ -21,32 +22,43 @@ kick: '^'
 
 items:
   '$':
-    type: STAINED_GLASS_PANE
-    data: 15
-    name: '&f'
+    type: GRAY_STAINED_GLASS_PANE
+    name: '&7'
+  '#':
+    type: BLACK_STAINED_GLASS_PANE
+    name: '&7'
   '@':
     type: DIAMOND_CHESTPLATE
-    name: '&ePlayer Role'
+    name: '<#97CFF5>&lPlayer Role'
     lore:
-      - '&7Click to edit player''s role.'
+      - '&7'
+      - '&7Change this player''s role.'
+      - '&7'
+      - '&8(( &fClick &7to edit &8))'
     flags:
       - HIDE_ATTRIBUTES
   '%':
     type: BARRIER
-    name: '&eBan Player'
+    name: '&c&lBan Player'
     lore:
-      - '&7Click to ban the player from the island.'
+      - '&7'
+      - '&7Ban this player from the team.'
+      - '&7'
+      - '&8(( &fClick &7to ban &8))'
   '^':
     type: SKULL_ITEM
-    name: '&eKick Player'
+    name: '&e&lKick Player'
     lore:
-      - '&7Click to kick the player from the island.'
+      - '&7'
+      - '&7Kick this player from the team.'
+      - '&7'
+      - '&8(( &fClick &7to kick &8))'
 
 sounds:
   '@':
-    type: CHEST_OPEN
-    volume: 0.8
-    pitch: 1
+    type: ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
   '%':
     type: ORB_PICKUP
     volume: 0.2

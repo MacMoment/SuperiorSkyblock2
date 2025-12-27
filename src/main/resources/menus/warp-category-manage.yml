@@ -2,16 +2,17 @@
 ##                                                  ##
 ##                SuperiorSkyblock 2                ##
 ##                Developed by Ome_R                ##
+##              Genphoria Custom Rework             ##
 ##                                                  ##
 ######################################################
 
-title: '&lCategory: {0}'
+title: '<#97CFF5>&lCategory: {0}'
 previous-menu: true
 
 pattern:
-  - '@ @ @ @ @ @ @ @ @'
-  - '@ ! @ @ ~ @ @ $ @'
-  - '@ @ @ @ @ @ @ @ @'
+  - '$ $ $ $ $ $ $ $ $'
+  - '$ ! $ $ ~ $ $ # $'
+  - '$ $ $ $ $ $ $ $ $'
 
 success-update-sound:
   type: ORB_PICKUP
@@ -20,31 +21,38 @@ success-update-sound:
 
 category-rename: '!'
 category-icon: '~'
-category-warps: '$'
+category-warps: '#'
 
 items:
+  '$':
+    type: GRAY_STAINED_GLASS_PANE
+    name: '&7'
   '!':
     type: BOOK
-    name: '&6Rename Category'
+    name: '<#97CFF5>&lRename Category'
     lore:
-      - '&f '
-      - '&f '
-      - '&7&o(( &f&oClick &7&oto rename the category. ))'
+      - '&7'
+      - '&7Change the name of this category.'
+      - '&7'
+      - '&8(( &fClick &7to rename &8))'
   '~':
     type: STONE
     lore:
-      - '&f '
-      - '&f '
-      - '&7&oYou can use the following placeholders:'
-      - '&7&o{0} is used for the warp''s name.'
-      - '&7&o{1} is used for the warp''s location.'
-      - '&7&o{2} is used for the warp''s public status.'
-      - '&7&o(( &f&oRight-Click &7&oto edit the icon. ))'
-      - '&7&o(( &f&oLeft-Click &7&oto edit the category''s slot. ))'
-  '$':
+      - '&7'
+      - '&7Customize the category icon.'
+      - '&7'
+      - '&7Placeholders:'
+      - '&7{0} = warp name'
+      - '&7{1} = warp location'
+      - '&7{2} = public status'
+      - '&7'
+      - '&8(( &fRight-Click &7to edit icon &8))'
+      - '&8(( &fLeft-Click &7to edit slot &8))'
+  '#':
     type: ENDER_PEARL
-    name: '&6Island Warps'
+    name: '<#97CFF5>&lTeam Warps'
     lore:
-      - '&f '
-      - '&f '
-      - '&7&o(( &f&oClick &7&oto edit the category warps. ))'
+      - '&7'
+      - '&7Manage warps in this category.'
+      - '&7'
+      - '&8(( &fClick &7to edit warps &8))'

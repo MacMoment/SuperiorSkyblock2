@@ -2,10 +2,11 @@
 ##                                                  ##
 ##                SuperiorSkyblock 2                ##
 ##                Developed by Ome_R                ##
+##              Genphoria Custom Rework             ##
 ##                                                  ##
 ######################################################
 
-title: '&lMissions'
+title: '<#97CFF5>&lMissions'
 previous-menu: true
 
 pattern:
@@ -17,56 +18,73 @@ pattern:
 
 items:
   '$':
-    type: STAINED_GLASS_PANE
-    data: 15
-    name: '&f'
+    type: GRAY_STAINED_GLASS_PANE
+    name: '&7'
+  '*':
+    type: BLACK_STAINED_GLASS_PANE
+    name: '&7'
   '#':
     type: DIAMOND_PICKAXE
-    name: '&eMiner Missions'
+    name: '<#97CFF5>&lMiner Missions'
     lore:
+      - '&7'
       - '&7Click to start your adventure as a Miner.'
+      - '&7'
+      - '&8(( &fClick &7to view &8))'
     flags:
       - HIDE_ATTRIBUTES
   '@':
     type: SKULL_ITEM
     data: 2
-    name: '&eSlayer Missions'
+    name: '<#97CFF5>&lSlayer Missions'
     lore:
+      - '&7'
       - '&7Click to start your adventure as a Slayer.'
+      - '&7'
+      - '&8(( &fClick &7to view &8))'
   '%':
     type: WHEAT
-    name: '&eFarmer Missions'
+    name: '<#97CFF5>&lFarmer Missions'
     lore:
+      - '&7'
       - '&7Click to start your adventure as a Farmer.'
+      - '&7'
+      - '&8(( &fClick &7to view &8))'
   '^':
     type: FISHING_ROD
-    name: '&eFisherman Missions'
+    name: '<#97CFF5>&lFisherman Missions'
     lore:
+      - '&7'
       - '&7Click to start your adventure as a Fisherman.'
+      - '&7'
+      - '&8(( &fClick &7to view &8))'
   '&':
     type: MAP
-    name: '&eExplorer Missions'
+    name: '<#97CFF5>&lExplorer Missions'
     lore:
+      - '&7'
       - '&7Click to start your adventure as an Explorer.'
+      - '&7'
+      - '&8(( &fClick &7to view &8))'
 
 sounds:
   '#':
-    type: CHEST_OPEN
-    volume: 0.8
-    pitch: 1
+    type: ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
   '@':
-    type: CHEST_OPEN
-    volume: 0.8
-    pitch: 1
+    type: ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
   '%':
-    type: CHEST_OPEN
-    volume: 0.8
-    pitch: 1
+    type: ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
   '^':
-    type: CHEST_OPEN
-    volume: 0.8
-    pitch: 1
+    type: ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
   '&':
-    type: CHEST_OPEN
-    volume: 0.8
-    pitch: 1
+    type: ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2

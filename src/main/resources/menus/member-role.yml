@@ -2,10 +2,11 @@
 ##                                                  ##
 ##                SuperiorSkyblock 2                ##
 ##                Developed by Ome_R                ##
+##              Genphoria Custom Rework             ##
 ##                                                  ##
 ######################################################
 
-title: '&8&l{}'
+title: '<#97CFF5>&l{}'
 previous-menu: true
 
 pattern:
@@ -17,39 +18,54 @@ pattern:
 
 items:
   '$':
-    type: STAINED_GLASS_PANE
-    data: 15
-    name: '&f'
+    type: GRAY_STAINED_GLASS_PANE
+    name: '&7'
+  '#':
+    type: BLACK_STAINED_GLASS_PANE
+    name: '&7'
   '@':
     role: Member
     type: LEATHER_CHESTPLATE
-    name: '&eMember'
+    name: '&a&lMember'
     lore:
-      - '&7Click to set player''s role to member.'
+      - '&7'
+      - '&7Set this player''s role to Member.'
+      - '&7'
+      - '&8(( &fClick &7to select &8))'
     flags:
       - HIDE_ATTRIBUTES
   '%':
     role: Moderator
     type: GOLD_CHESTPLATE
-    name: '&eModerator'
+    name: '&6&lModerator'
     lore:
-      - '&7Click to set player''s role to moderator.'
+      - '&7'
+      - '&7Set this player''s role to Moderator.'
+      - '&7'
+      - '&8(( &fClick &7to select &8))'
     flags:
       - HIDE_ATTRIBUTES
   '&':
     role: Admin
     type: IRON_CHESTPLATE
-    name: '&eAdmin'
+    name: '&b&lAdmin'
     lore:
-      - '&7Click to set player''s role to admin.'
+      - '&7'
+      - '&7Set this player''s role to Admin.'
+      - '&7'
+      - '&8(( &fClick &7to select &8))'
     flags:
       - HIDE_ATTRIBUTES
   '*':
     role: Leader
     type: DIAMOND_CHESTPLATE
-    name: '&eLeader'
+    name: '&d&lLeader'
     lore:
-      - '&7Click to transfer leadership to player.'
+      - '&7'
+      - '&7Transfer leadership to this player.'
+      - '&cThis action cannot be undone!'
+      - '&7'
+      - '&8(( &fClick &7to transfer &8))'
     flags:
       - HIDE_ATTRIBUTES
 

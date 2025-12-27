@@ -2,19 +2,20 @@
 ##                                                  ##
 ##                SuperiorSkyblock 2                ##
 ##                Developed by Ome_R                ##
+##              Genphoria Custom Rework             ##
 ##                                                  ##
 ######################################################
 
-title: '&l        Border Color'
+title: '<#97CFF5>&lBorder Color'
 previous-menu: true
 type: HOPPER
 
 pattern:
-  - '~ # @ ^ $'
+  - '~ $ @ ^ #'
 
 green-color: '@'
 red-color: '^'
-blue-color: '$'
+blue-color: '#'
 
 items:
   '~':
@@ -22,31 +23,55 @@ items:
       type: SKULL_ITEM
       data: 3
       skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ZhZjRjMjlmMWU3NDA1ZjQ2ODBjNWMyYjAzZWY5Mzg0ZjFhZWNmZTI5ODZhZDUwMTM4YzYwNWZlZmZmMmYxNSJ9fX0='
-      name: '&aEnable Border'
+      name: '&a&lEnable Border'
+      lore:
+        - '&7'
+        - '&7Enable the island border.'
+        - '&7'
+        - '&8(( &fClick &7to enable &8))'
     disable-border:
       type: SKULL_ITEM
       data: 3
       skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ZhZjRjMjlmMWU3NDA1ZjQ2ODBjNWMyYjAzZWY5Mzg0ZjFhZWNmZTI5ODZhZDUwMTM4YzYwNWZlZmZmMmYxNSJ9fX0='
-      name: '&cDisable Border'
-  '#':
-    type: STAINED_GLASS_PANE
-    data: 15
-    name: '&f'
+      name: '&c&lDisable Border'
+      lore:
+        - '&7'
+        - '&7Disable the island border.'
+        - '&7'
+        - '&8(( &fClick &7to disable &8))'
+  '$':
+    type: GRAY_STAINED_GLASS_PANE
+    name: '&7'
   '@':
     type: SKULL_ITEM
     data: 3
     skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc0NzJkNjA4ODIxZjQ1YTg4MDUzNzZlYzBjNmZmY2I3ODExNzgyOWVhNWY5NjAwNDFjMmEwOWQxMGUwNGNiNCJ9fX0='
-    name: '&aGreen Color'
+    name: '&a&lGreen Color'
+    lore:
+      - '&7'
+      - '&7Set border color to green.'
+      - '&7'
+      - '&8(( &fClick &7to select &8))'
   '^':
     type: SKULL_ITEM
     data: 3
     skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjk1M2IxMmEwOTQ2YjYyOWI0YzA4ODlkNDFmZDI2ZWQyNmZiNzI5ZDRkNTE0YjU5NzI3MTI0YzM3YmI3MGQ4ZCJ9fX0='
-    name: '&cRed Color'
-  '$':
+    name: '&c&lRed Color'
+    lore:
+      - '&7'
+      - '&7Set border color to red.'
+      - '&7'
+      - '&8(( &fClick &7to select &8))'
+  '#':
     type: SKULL_ITEM
     data: 3
     skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYzZTY2NDZmMWMwZDQxZmQzYmY1NTg0YTFjZTA0NGY1YzQ2ZDU5ODI1OGRiNDYyMTYxMTc4NTlmNTdhZjE5NyJ9fX0='
-    name: '&bBlue Color'
+    name: '&b&lBlue Color'
+    lore:
+      - '&7'
+      - '&7Set border color to blue.'
+      - '&7'
+      - '&8(( &fClick &7to select &8))'
 
 sounds:
   '~':
@@ -61,7 +86,7 @@ sounds:
     type: ORB_PICKUP
     volume: 0.2
     pitch: 0.2
-  '$':
+  '#':
     type: ORB_PICKUP
     volume: 0.2
     pitch: 0.2
