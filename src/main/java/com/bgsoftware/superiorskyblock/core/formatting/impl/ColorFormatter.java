@@ -24,6 +24,7 @@ public class ColorFormatter implements IFormatter<String> {
     }
 
     private static final Pattern HEX_COLOR_PATTERN = Pattern.compile("([&§])(\\{HEX:([0-9A-Fa-f]*)})");
+    private static final Pattern ANGLE_BRACKET_HEX_PATTERN = Pattern.compile("<#([0-9A-Fa-f]{3}|[0-9A-Fa-f]{6})>");
 
     public static ColorFormatter getInstance() {
         return INSTANCE;
@@ -63,6 +64,7 @@ public class ColorFormatter implements IFormatter<String> {
 
         @Override
         public String format(String value) {
+            // Handle &{HEX:RRGGBB} or §{HEX:RRGGBB} format
             while (true) {
                 Matcher matcher = HEX_COLOR_PATTERN.matcher(value);
 
@@ -70,6 +72,16 @@ public class ColorFormatter implements IFormatter<String> {
                     break;
 
                 value = matcher.replaceFirst(parseHexColor(matcher.group(3)));
+            }
+
+            // Handle <#RRGGBB> format
+            while (true) {
+                Matcher matcher = ANGLE_BRACKET_HEX_PATTERN.matcher(value);
+
+                if (!matcher.find())
+                    break;
+
+                value = matcher.replaceFirst(parseHexColor(matcher.group(1)));
             }
 
             return value;
