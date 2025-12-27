@@ -2,17 +2,18 @@
 ##                                                  ##
 ##                SuperiorSkyblock 2                ##
 ##                Developed by Ome_R                ##
+##              Genphoria Custom Rework             ##
 ##                                                  ##
 ######################################################
 
-title: '&lWarp: {0}'
+title: '<#97CFF5>&lWarp: {0}'
 previous-menu: true
 
 pattern:
-  - '@ @ @ @ @ @ @ @ @'
-  - '@ @ ! @ % @ $ @ @'
-  - '@ @ @ @ ~ @ @ @ @'
-  - '@ @ @ @ @ @ @ @ @'
+  - '$ $ $ $ $ $ $ $ $'
+  - '$ $ ! $ % $ # $ $'
+  - '$ $ $ $ ~ $ $ $ $'
+  - '$ $ $ $ $ $ $ $ $'
 
 success-update-sound:
   type: ORB_PICKUP
@@ -21,38 +22,46 @@ success-update-sound:
 
 warp-rename: '!'
 warp-icon: '~'
-warp-location: '$'
+warp-location: '#'
 warp-private: '%'
 
 items:
+  '$':
+    type: GRAY_STAINED_GLASS_PANE
+    name: '&7'
   '!':
     type: BOOK
-    name: '&6Rename Warp'
+    name: '<#97CFF5>&lRename Warp'
     lore:
-      - '&f '
-      - '&f '
-      - '&7&o(( &f&oClick &7&oto rename the warp. ))'
+      - '&7'
+      - '&7Change the name of this warp.'
+      - '&7'
+      - '&8(( &fClick &7to rename &8))'
   '~':
     type: STONE
     lore:
-      - '&f '
-      - '&f '
-      - '&7&oYou can use the following placeholders:'
-      - '&7&o{0} is used for the warp''s name.'
-      - '&7&o{1} is used for the warp''s location.'
-      - '&7&o{2} is used for the warp''s public status.'
-      - '&7&o(( &f&oClick &7&oto edit the icon. ))'
-  '$':
+      - '&7'
+      - '&7Customize the warp icon.'
+      - '&7'
+      - '&7Placeholders:'
+      - '&7{0} = warp name'
+      - '&7{1} = warp location'
+      - '&7{2} = public status'
+      - '&7'
+      - '&8(( &fClick &7to edit icon &8))'
+  '#':
     type: ENDER_PEARL
-    name: '&6Warp Location'
+    name: '<#97CFF5>&lWarp Location'
     lore:
-      - '&f '
-      - '&f '
-      - '&7&o(( &f&oClick &7&oto update the warp location. ))'
+      - '&7'
+      - '&7Update the teleport location.'
+      - '&7'
+      - '&8(( &fClick &7to update &8))'
   '%':
     type: FEATHER
-    name: '&6Private Warp'
+    name: '<#97CFF5>&lPrivate Warp'
     lore:
-      - '&f '
-      - '&f '
-      - '&7&o(( &f&oClick &7&oto toggle warp to the public. ))'
+      - '&7'
+      - '&7Toggle warp visibility.'
+      - '&7'
+      - '&8(( &fClick &7to toggle &8))'
