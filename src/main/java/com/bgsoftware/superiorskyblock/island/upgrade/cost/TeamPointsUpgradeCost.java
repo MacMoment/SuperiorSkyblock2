@@ -1,6 +1,5 @@
 package com.bgsoftware.superiorskyblock.island.upgrade.cost;
 
-import com.bgsoftware.superiorskyblock.SuperiorSkyblockPlugin;
 import com.bgsoftware.superiorskyblock.api.island.Island;
 import com.bgsoftware.superiorskyblock.api.upgrades.cost.UpgradeCost;
 import com.bgsoftware.superiorskyblock.api.wrappers.SuperiorPlayer;
@@ -9,8 +8,6 @@ import com.bgsoftware.superiorskyblock.commands.admin.CmdAdminGiveTeamPoints;
 import java.math.BigDecimal;
 
 public class TeamPointsUpgradeCost extends UpgradeCostAbstract {
-
-    private static final SuperiorSkyblockPlugin plugin = SuperiorSkyblockPlugin.getPlugin();
 
     public TeamPointsUpgradeCost(BigDecimal value) {
         super(value, "teampoints");
@@ -32,12 +29,8 @@ public class TeamPointsUpgradeCost extends UpgradeCostAbstract {
         
         int costAmount = cost.intValue();
         int currentPoints = CmdAdminGiveTeamPoints.getTeamPoints(island);
-        
-        // Only withdraw if we have enough balance
-        if (currentPoints >= costAmount) {
-            int newPoints = currentPoints - costAmount;
-            CmdAdminGiveTeamPoints.setTeamPoints(island, newPoints);
-        }
+        int newPoints = currentPoints - costAmount;
+        CmdAdminGiveTeamPoints.setTeamPoints(island, newPoints);
     }
 
     @Override
