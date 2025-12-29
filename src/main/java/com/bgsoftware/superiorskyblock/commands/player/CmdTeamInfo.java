@@ -138,7 +138,7 @@ public class CmdTeamInfo implements ISuperiorCommand {
         infoMessage.append("&f1pt/10M money &8| &f1pt/10k tokens\n");
         infoMessage.append("&8&m----------------------------------------\n");
 
-        Message.CUSTOM.send(sender, infoMessage.toString(), false);
+        Message.CUSTOM.send(sender, infoMessage.toString(), true);
     }
 
     @Override

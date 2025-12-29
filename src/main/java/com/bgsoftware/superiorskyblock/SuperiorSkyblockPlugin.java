@@ -58,6 +58,7 @@ import com.bgsoftware.superiorskyblock.island.top.SortingTypes;
 import com.bgsoftware.superiorskyblock.island.upgrade.UpgradesManagerImpl;
 import com.bgsoftware.superiorskyblock.island.upgrade.container.DefaultUpgradesContainer;
 import com.bgsoftware.superiorskyblock.island.upgrade.loaders.PlaceholdersUpgradeCostLoader;
+import com.bgsoftware.superiorskyblock.island.upgrade.loaders.TeamPointsUpgradeCostLoader;
 import com.bgsoftware.superiorskyblock.island.upgrade.loaders.VaultUpgradeCostLoader;
 import com.bgsoftware.superiorskyblock.listener.BukkitListeners;
 import com.bgsoftware.superiorskyblock.mission.MissionsManagerImpl;
@@ -662,6 +663,7 @@ public class SuperiorSkyblockPlugin extends JavaPlugin implements SuperiorSkyblo
     private void loadUpgradeCostLoaders() {
         upgradesHandler.registerUpgradeCostLoader("money", new VaultUpgradeCostLoader());
         upgradesHandler.registerUpgradeCostLoader("placeholders", new PlaceholdersUpgradeCostLoader());
+        upgradesHandler.registerUpgradeCostLoader("teampoints", new TeamPointsUpgradeCostLoader());
     }
 
     private long calculateMaxPossibleIslands() {

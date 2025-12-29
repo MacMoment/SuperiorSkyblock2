@@ -2,7 +2,7 @@
 ##                                                  ##
 ##                SuperiorSkyblock 2                ##
 ##                Developed by Ome_R                ##
-##              Genphoria Custom Rework             ##
+##              Genphoria Custom Upgrades           ##
 ##                                                  ##
 ######################################################
 
@@ -13,24 +13,21 @@ pattern:
   - '$ $ $ $ $ $ $ $ $'
   - '$ @ $ % $ ^ $ & $'
   - '$ $ $ $ $ $ $ $ $'
-  - '$ * $ ~ $ ! $ + $'
+  - '$ * $ ~ $ $ $ ! $'
   - '$ $ $ $ $ $ $ $ $'
 
 items:
   '$':
     type: GRAY_STAINED_GLASS_PANE
     name: '&7'
-  '+':
-    type: BOOK
-    name: '<#97CFF5>&lTeam Points Info'
+  '!':
+    type: ARROW
+    name: '<#97CFF5>&lBack'
     lore:
       - '&7'
-      - '&7Team points are earned through'
-      - '&7special enchants and activities.'
+      - '&7Return to the team panel.'
       - '&7'
-      - '&7Use them to upgrade your team!'
-      - '&7'
-      - '&8(( &fClick &7for more info &8))'
+      - '&8(( &fClick &7to go back &8))'
 
 upgrades:
   token-multi:
@@ -71,6 +68,35 @@ upgrades:
           type: VILLAGER_NO
           volume: 0.2
           pitch: 0.2
+    '100':
+      has-next-level:
+        type: GOLD_NUGGET
+        name: '&a&lToken Multiplier &7(MAX)'
+        lore:
+          - '&7'
+          - '<#97CFF5>&l| &fCurrent Level: &7100'
+          - '<#97CFF5>&l| &fMultiplier: &a+2.00x'
+          - '&7'
+          - '&aYou have reached the maximum'
+          - '&atoken multiplier!'
+        sound:
+          type: VILLAGER_YES
+          volume: 0.2
+          pitch: 0.2
+      no-next-level:
+        type: GOLD_NUGGET
+        name: '&a&lToken Multiplier &7(MAX)'
+        lore:
+          - '&7'
+          - '<#97CFF5>&l| &fCurrent Level: &7100'
+          - '<#97CFF5>&l| &fMultiplier: &a+2.00x'
+          - '&7'
+          - '&aYou have reached the maximum'
+          - '&atoken multiplier!'
+        sound:
+          type: VILLAGER_YES
+          volume: 0.2
+          pitch: 0.2
   money-multi:
     item: '%'
     '1':
@@ -107,6 +133,35 @@ upgrades:
           - '&cNot enough team points!'
         sound:
           type: VILLAGER_NO
+          volume: 0.2
+          pitch: 0.2
+    '100':
+      has-next-level:
+        type: EMERALD
+        name: '&a&lMoney Multiplier &7(MAX)'
+        lore:
+          - '&7'
+          - '<#97CFF5>&l| &fCurrent Level: &7100'
+          - '<#97CFF5>&l| &fMultiplier: &a+2.00x'
+          - '&7'
+          - '&aYou have reached the maximum'
+          - '&amoney multiplier!'
+        sound:
+          type: VILLAGER_YES
+          volume: 0.2
+          pitch: 0.2
+      no-next-level:
+        type: EMERALD
+        name: '&a&lMoney Multiplier &7(MAX)'
+        lore:
+          - '&7'
+          - '<#97CFF5>&l| &fCurrent Level: &7100'
+          - '<#97CFF5>&l| &fMultiplier: &a+2.00x'
+          - '&7'
+          - '&aYou have reached the maximum'
+          - '&amoney multiplier!'
+        sound:
+          type: VILLAGER_YES
           volume: 0.2
           pitch: 0.2
   exp-multi:
@@ -147,6 +202,35 @@ upgrades:
           type: VILLAGER_NO
           volume: 0.2
           pitch: 0.2
+    '100':
+      has-next-level:
+        type: EXPERIENCE_BOTTLE
+        name: '&a&lEXP Multiplier &7(MAX)'
+        lore:
+          - '&7'
+          - '<#97CFF5>&l| &fCurrent Level: &7100'
+          - '<#97CFF5>&l| &fMultiplier: &a+2.00x'
+          - '&7'
+          - '&aYou have reached the maximum'
+          - '&aEXP multiplier!'
+        sound:
+          type: VILLAGER_YES
+          volume: 0.2
+          pitch: 0.2
+      no-next-level:
+        type: EXPERIENCE_BOTTLE
+        name: '&a&lEXP Multiplier &7(MAX)'
+        lore:
+          - '&7'
+          - '<#97CFF5>&l| &fCurrent Level: &7100'
+          - '<#97CFF5>&l| &fMultiplier: &a+2.00x'
+          - '&7'
+          - '&aYou have reached the maximum'
+          - '&aEXP multiplier!'
+        sound:
+          type: VILLAGER_YES
+          volume: 0.2
+          pitch: 0.2
   gendrops-speed:
     item: '&'
     '1':
@@ -182,6 +266,35 @@ upgrades:
           - '&cNot enough team points!'
         sound:
           type: VILLAGER_NO
+          volume: 0.2
+          pitch: 0.2
+    '10':
+      has-next-level:
+        type: DISPENSER
+        name: '&a&lGendrops Speedboost &7(MAX)'
+        lore:
+          - '&7'
+          - '<#97CFF5>&l| &fCurrent Level: &710'
+          - '<#97CFF5>&l| &fSpeed Boost: &a+100%'
+          - '&7'
+          - '&aYou have reached the maximum'
+          - '&agendrops speed!'
+        sound:
+          type: VILLAGER_YES
+          volume: 0.2
+          pitch: 0.2
+      no-next-level:
+        type: DISPENSER
+        name: '&a&lGendrops Speedboost &7(MAX)'
+        lore:
+          - '&7'
+          - '<#97CFF5>&l| &fCurrent Level: &710'
+          - '<#97CFF5>&l| &fSpeed Boost: &a+100%'
+          - '&7'
+          - '&aYou have reached the maximum'
+          - '&agendrops speed!'
+        sound:
+          type: VILLAGER_YES
           volume: 0.2
           pitch: 0.2
   border-size:
@@ -312,15 +425,6 @@ upgrades:
           type: VILLAGER_YES
           volume: 0.2
           pitch: 0.2
-  back-button:
-    item: '!'
-    type: ARROW
-    name: '<#97CFF5>&lBack'
-    lore:
-      - '&7'
-      - '&7Return to the team panel.'
-      - '&7'
-      - '&8(( &fClick &7to go back &8))'
 
 sounds:
   '@':

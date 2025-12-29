@@ -106,7 +106,7 @@ public class CmdTeam implements ISuperiorCommand {
             if (!Message.ISLAND_TEAM_STATUS_FOOTER.isEmpty(locale))
                 infoMessage.append(Message.ISLAND_TEAM_STATUS_FOOTER.getMessage(locale));
 
-            Message.CUSTOM.send(sender, infoMessage.toString(), false);
+            Message.CUSTOM.send(sender, infoMessage.toString(), true);
         });
     }
 
