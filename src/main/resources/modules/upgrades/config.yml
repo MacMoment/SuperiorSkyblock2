@@ -118,28 +118,28 @@ upgrades:
     '1':
       price: 5.0
       price-type: "teampoints"
-      border-size: 62
+      border-size: 75
       commands:
         - 'island admin setupgrade %player% border-size 2'
         - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Island Size upgraded to 150x150!'
     '2':
       price: 5.0
       price-type: "teampoints"
-      border-size: 75
+      border-size: 87
       commands:
         - 'island admin setupgrade %player% border-size 3'
         - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Island Size upgraded to 175x175!'
     '3':
       price: 5.0
       price-type: "teampoints"
-      border-size: 87
+      border-size: 100
       commands:
         - 'island admin setupgrade %player% border-size 4'
         - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Island Size upgraded to 200x200!'
     '4':
       price: 5.0
       price-type: "teampoints"
-      border-size: 100
+      border-size: 112
       commands:
         - 'island admin setupgrade %player% border-size 5'
         - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Island Size upgraded to 225x225!'
@@ -154,7 +154,7 @@ upgrades:
       price: 5.0
       price-type: "teampoints"
       block-limits:
-        HOPPER: 100
+        HOPPER: 50
       commands:
         - 'island admin setupgrade %player% hoppers-limit 2'
         - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Hopper Limit upgraded to 100 per player!'
@@ -162,7 +162,7 @@ upgrades:
       price: 5.0
       price-type: "teampoints"
       block-limits:
-        HOPPER: 125
+        HOPPER: 100
       commands:
         - 'island admin setupgrade %player% hoppers-limit 3'
         - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Hopper Limit upgraded to 125 per player!'

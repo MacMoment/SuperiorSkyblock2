@@ -22,7 +22,7 @@ public class TeamPointsUpgradeCost extends UpgradeCostAbstract {
         if (island == null) return false;
         
         int teamPoints = CmdAdminGiveTeamPoints.getTeamPoints(island);
-        return BigDecimal.valueOf(teamPoints).compareTo(cost) >= 0;
+        return teamPoints >= cost.intValue();
     }
 
     @Override
@@ -30,10 +30,14 @@ public class TeamPointsUpgradeCost extends UpgradeCostAbstract {
         Island island = superiorPlayer.getIsland();
         if (island == null) return;
         
-        int currentPoints = CmdAdminGiveTeamPoints.getTeamPoints(island);
         int costAmount = cost.intValue();
-        int newPoints = Math.max(0, currentPoints - costAmount);
-        CmdAdminGiveTeamPoints.setTeamPoints(island, newPoints);
+        int currentPoints = CmdAdminGiveTeamPoints.getTeamPoints(island);
+        
+        // Only withdraw if we have enough balance
+        if (currentPoints >= costAmount) {
+            int newPoints = currentPoints - costAmount;
+            CmdAdminGiveTeamPoints.setTeamPoints(island, newPoints);
+        }
     }
 
     @Override
