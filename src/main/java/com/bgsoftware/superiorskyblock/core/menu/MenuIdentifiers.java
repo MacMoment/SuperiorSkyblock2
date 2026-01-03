@@ -35,6 +35,7 @@ public class MenuIdentifiers {
     public static final String MENU_MISSIONS = "MenuMissions";
     public static final String MENU_MISSIONS_CATEGORY = "MenuMissionsCategory";
     public static final String MENU_PLAYER_LANGUAGE = "MenuPlayerLanguage";
+    public static final String MENU_TEAM_INFO = "MenuTeamInfo";
     public static final String MENU_TOP_ISLANDS = "MenuTopIslands";
     public static final String MENU_WARP_CATEGORIES = "MenuWarpCategories";
     public static final String MENU_WARP_CATEGORIES_ICON_EDIT = "MenuWarpCategoryIconEdit";

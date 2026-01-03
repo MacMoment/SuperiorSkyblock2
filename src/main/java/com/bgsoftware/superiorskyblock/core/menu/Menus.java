@@ -32,6 +32,7 @@ import com.bgsoftware.superiorskyblock.core.menu.impl.MenuMemberRole;
 import com.bgsoftware.superiorskyblock.core.menu.impl.MenuMissions;
 import com.bgsoftware.superiorskyblock.core.menu.impl.MenuMissionsCategory;
 import com.bgsoftware.superiorskyblock.core.menu.impl.MenuPlayerLanguage;
+import com.bgsoftware.superiorskyblock.core.menu.impl.MenuTeamInfo;
 import com.bgsoftware.superiorskyblock.core.menu.impl.MenuTopIslands;
 import com.bgsoftware.superiorskyblock.core.menu.impl.MenuWarpCategories;
 import com.bgsoftware.superiorskyblock.core.menu.impl.MenuWarpCategoryIconEdit;
@@ -80,6 +81,7 @@ public class Menus {
     public static MenuMissions MENU_MISSIONS;
     public static MenuMissionsCategory MENU_MISSIONS_CATEGORY;
     public static MenuPlayerLanguage MENU_PLAYER_LANGUAGE;
+    public static MenuTeamInfo MENU_TEAM_INFO;
     public static MenuTopIslands MENU_TOP_ISLANDS;
     public static MenuWarpCategories MENU_WARP_CATEGORIES;
     public static MenuWarpCategoryIconEdit MENU_WARP_CATEGORY_ICON_EDIT;
@@ -127,6 +129,7 @@ public class Menus {
         MENU_MISSIONS = createMenu(MenuMissions.createInstance());
         MENU_MISSIONS_CATEGORY = createMenu(MenuMissionsCategory.createInstance());
         MENU_PLAYER_LANGUAGE = createMenu(MenuPlayerLanguage.createInstance());
+        MENU_TEAM_INFO = createMenu(MenuTeamInfo.createInstance());
         MENU_TOP_ISLANDS = createMenu(MenuTopIslands.createInstance());
         MENU_WARP_CATEGORIES = createMenu(MenuWarpCategories.createInstance());
         MENU_WARP_CATEGORY_ICON_EDIT = createMenu(MenuWarpCategoryIconEdit.createInstance());

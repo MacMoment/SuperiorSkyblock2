@@ -1,0 +1,107 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##              Genphoria Team Info GUI             ##
+##                                                  ##
+######################################################
+
+# Team Info GUI
+# This menu shows detailed team statistics and member contributions
+# 
+# Title Placeholders:
+#   {0} - Team name
+#   {1} - Member count
+#   {2} - Team points
+#   {3} - Total leaderboard points
+#
+# Member Item Placeholders:
+#   {0} - Player name
+#   {1} - Player role
+#   {2} - Rank in team
+#   {3} - Farming stat (formatted)
+#   {4} - Farming points
+#   {5} - Fishing stat (formatted)
+#   {6} - Fishing points
+#   {7} - Money stat (formatted)
+#   {8} - Money points
+#   {9} - Tokens stat (formatted)
+#   {10} - Token points
+#   {11} - Total points
+
+title: '<#97CFF5>&lTeam Info - {0}'
+previous-menu: true
+
+pattern:
+  - '$ $ $ $ $ $ $ $ $'
+  - '$ @ @ @ @ @ @ @ $'
+  - '$ @ @ @ @ @ @ @ $'
+  - '$ @ @ @ @ @ @ @ $'
+  - '$ $ $ $ $ $ $ $ $'
+  - '$ % $ * $ ^ $ ! $'
+
+slots: '@'
+previous-page: '%'
+current-page: '*'
+next-page: '^'
+
+items:
+  '@':
+    type: SKULL_ITEM
+    data: 3
+    name: '&8[&7#&f{2}&8] <#97CFF5>{0}'
+    lore:
+      - '&7'
+      - '<#97CFF5>&l| &fRole: &7{1}'
+      - '&7'
+      - '<#97CFF5>&l| &fStatistics'
+      - '<#97CFF5>&l| &fFarming: &7{3} &8| &a{4} &2points'
+      - '<#97CFF5>&l| &fFishing: &7{5} &8| &a{6} &2points'
+      - '<#97CFF5>&l| &fMoney: &7${7} &8| &a{8} &2points'
+      - '<#97CFF5>&l| &fTokens: &7{9} &8| &a{10} &2points'
+      - '&7'
+      - '<#97CFF5>&l| &fTotal Points: &a{11}'
+      - '&7'
+  '%':
+    type: ARROW
+    name: '<#97CFF5>&lPrevious Page'
+    lore:
+      - '&7'
+      - '&8(( &fClick &7to go back &8))'
+  '*':
+    type: SUNFLOWER
+    name: '<#97CFF5>&lPage {0}'
+    lore:
+      - '&7'
+      - '&7Current page: &f{0}'
+  '^':
+    type: ARROW
+    name: '<#97CFF5>&lNext Page'
+    lore:
+      - '&7'
+      - '&8(( &fClick &7to go forward &8))'
+  '!':
+    type: ARROW
+    name: '<#97CFF5>&lBack'
+    lore:
+      - '&7'
+      - '&7Return to the team panel.'
+      - '&7'
+      - '&8(( &fClick &7to go back &8))'
+  '$':
+    type: GRAY_STAINED_GLASS_PANE
+    name: '&7'
+
+sounds:
+  '@':
+    type: ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+  '!':
+    type: ORB_PICKUP
+    volume: 0.2
+    pitch: 0.2
+
+commands:
+  '!':
+    - '[player] is panel'
