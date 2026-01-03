@@ -606,4 +606,28 @@ public class MenusProvider_Default implements MenusProvider {
         Menus.MENU_WARPS.closeViews(warpCategory);
     }
 
+    /**
+     * Open the team-info menu.
+     * Used when running the /team info command.
+     *
+     * @param targetPlayer The player to open the menu for.
+     * @param previousMenu The previous menu that was opened, if exists.
+     * @param targetIsland The island to get team info from.
+     */
+    public void openTeamInfo(SuperiorPlayer targetPlayer, @Nullable ISuperiorMenu previousMenu, Island targetIsland) {
+        Preconditions.checkNotNull(targetPlayer, "targetPlayer parameter cannot be null.");
+        Preconditions.checkNotNull(targetIsland, "targetIsland parameter cannot be null.");
+        Menus.MENU_TEAM_INFO.createView(targetPlayer, new IslandViewArgs(targetIsland), previousMenu);
+    }
+
+    /**
+     * Refresh the team-info menu for a specific island.
+     *
+     * @param island The island to refresh the menus for.
+     */
+    public void refreshTeamInfo(Island island) {
+        Preconditions.checkNotNull(island, "island parameter cannot be null.");
+        Menus.MENU_TEAM_INFO.refreshViews(island);
+    }
+
 }

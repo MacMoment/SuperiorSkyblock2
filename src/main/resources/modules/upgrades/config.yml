@@ -2,7 +2,7 @@
 ##                                                  ##
 ##                SuperiorSkyblock 2                ##
 ##                Developed by Ome_R                ##
-##              Genphoria Custom Upgrades           ##
+##           Genphoria Team Upgrades Config         ##
 ##                                                  ##
 ######################################################
 
@@ -34,11 +34,11 @@ block-limits: true
 # When disabled, the plugin will not limit spawning of entities.
 entity-limits: true
 
-# Genphoria Custom Upgrades - Using Team Points
+# Genphoria Team Upgrades - Using Team Points
 # Token Multi: 100 levels, +0.02x per level, 1 point per upgrade
 # Money Multi: 100 levels, +0.02x per level, 1 point per upgrade  
 # EXP Multi: 100 levels, +0.02x per level, 1 point per upgrade
-# Gendrops Speed: Speed boost upgrade, 2 points per upgrade
+# Gendrops Speed: 10 levels, +10% per level, 1 point per upgrade
 # Island Size: 125x125 to 250x250, 5 levels, 5 points per level
 # Hopper Limit: 50 to 150 per player, 3 levels, 5 points per level
 upgrades:
@@ -98,13 +98,13 @@ upgrades:
         - 'island admin msg %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 &aYou have reached the maximum EXP Multiplier! (+2.00x)'
   gendrops-speed:
     '1':
-      price: 2.0
+      price: 1.0
       price-type: "teampoints"
       commands:
         - 'island admin setupgrade %player% gendrops-speed 2'
         - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Gendrops Speed upgraded to Level 2! (+20% speed)'
     '2':
-      price: 2.0
+      price: 1.0
       price-type: "teampoints"
       commands:
         - 'island admin setupgrade %player% gendrops-speed 3'
@@ -118,31 +118,31 @@ upgrades:
     '1':
       price: 5.0
       price-type: "teampoints"
-      border-size: 75
+      border-size: 78
       commands:
         - 'island admin setupgrade %player% border-size 2'
-        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Island Size upgraded to 150x150!'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Island Size upgraded to 156x156!'
     '2':
       price: 5.0
       price-type: "teampoints"
-      border-size: 87
+      border-size: 93
       commands:
         - 'island admin setupgrade %player% border-size 3'
-        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Island Size upgraded to 175x175!'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Island Size upgraded to 187x187!'
     '3':
       price: 5.0
       price-type: "teampoints"
-      border-size: 100
+      border-size: 109
       commands:
         - 'island admin setupgrade %player% border-size 4'
-        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Island Size upgraded to 200x200!'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Island Size upgraded to 218x218!'
     '4':
       price: 5.0
       price-type: "teampoints"
-      border-size: 112
+      border-size: 125
       commands:
         - 'island admin setupgrade %player% border-size 5'
-        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Island Size upgraded to 225x225!'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Island Size upgraded to 250x250!'
     '5':
       price: 0.0
       price-type: "teampoints"
@@ -165,7 +165,7 @@ upgrades:
         HOPPER: 100
       commands:
         - 'island admin setupgrade %player% hoppers-limit 3'
-        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Hopper Limit upgraded to 125 per player!'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Hopper Limit upgraded to 150 per player!'
     '3':
       price: 0.0
       price-type: "teampoints"
