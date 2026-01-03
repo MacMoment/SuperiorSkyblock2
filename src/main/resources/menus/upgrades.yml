@@ -2,30 +2,34 @@
 ##                                                  ##
 ##                SuperiorSkyblock 2                ##
 ##                Developed by Ome_R                ##
-##              Genphoria Custom Upgrades           ##
+##           Genphoria Team Upgrades GUI            ##
 ##                                                  ##
 ######################################################
 
-title: '<#97CFF5>&lTeam Upgrades'
+title: '       <#97CFF5>&l✦ &f&lTEAM UPGRADES <#97CFF5>&l✦'
 previous-menu: true
 
 pattern:
+  - '# # # # # # # # #'
+  - '# $ $ $ $ $ $ $ #'
+  - '$ @ $ % $ ^ $ $ $'
   - '$ $ $ $ $ $ $ $ $'
-  - '$ @ $ % $ ^ $ & $'
-  - '$ $ $ $ $ $ $ $ $'
-  - '$ * $ ~ $ $ $ ! $'
-  - '$ $ $ $ $ $ $ $ $'
+  - '$ & $ * $ ~ $ $ $'
+  - '# $ $ $ $ $ $ ! #'
 
 items:
+  '#':
+    type: BLACK_STAINED_GLASS_PANE
+    name: '&7'
   '$':
     type: GRAY_STAINED_GLASS_PANE
     name: '&7'
   '!':
     type: ARROW
-    name: '<#97CFF5>&lBack'
+    name: '&c&lBack'
     lore:
       - '&7'
-      - '&7Return to the team panel.'
+      - '&7Return to the previous menu.'
       - '&7'
       - '&8(( &fClick &7to go back &8))'
 
@@ -34,65 +38,69 @@ upgrades:
     item: '@'
     '1':
       has-next-level:
-        type: GOLD_NUGGET
-        name: '<#97CFF5>&lToken Multiplier'
+        type: GOLD_INGOT
+        name: '&6&l✧ &e&lToken Multiplier &6&l✧'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Level: &71'
-          - '<#97CFF5>&l| &fNext Level: &72'
+          - '&8▸ &7Boost your token earnings'
+          - '&8  &7from all sources!'
           - '&7'
-          - '&7Increase your token earnings'
-          - '&7from all sources.'
+          - '&8┃ &fCurrent Level: &e1&8/&6100'
+          - '&8┃ &fMultiplier: &a+0.02x &7per level'
+          - '&8┃ &fMax Bonus: &a+2.00x'
           - '&7'
-          - '<#97CFF5>&l| &fMultiplier: &7+0.02x per level'
-          - '<#97CFF5>&l| &fMax Level: &7100'
-          - '<#97CFF5>&l| &fCost: &71 Team Point'
+          - '&8┃ &fCost: &b1 Team Point'
           - '&7'
-          - '&8(( &fClick &7to purchase &8))'
+          - '&a▶ Click to upgrade!'
         sound:
           type: ORB_PICKUP
           volume: 0.2
           pitch: 0.2
       no-next-level:
-        type: GOLD_NUGGET
-        name: '<#97CFF5>&lToken Multiplier &c(Locked)'
+        type: GOLD_INGOT
+        name: '&6&l✧ &e&lToken Multiplier &c(Locked)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Level: &71'
+          - '&8▸ &7Boost your token earnings'
+          - '&8  &7from all sources!'
           - '&7'
-          - '&7Increase your token earnings'
-          - '&7from all sources.'
+          - '&8┃ &fCurrent Level: &e1&8/&6100'
+          - '&8┃ &fMultiplier: &a+0.02x &7per level'
           - '&7'
-          - '&cNot enough team points!'
+          - '&c✘ Not enough team points!'
         sound:
           type: VILLAGER_NO
           volume: 0.2
           pitch: 0.2
     '100':
       has-next-level:
-        type: GOLD_NUGGET
-        name: '&a&lToken Multiplier &7(MAX)'
+        type: GOLD_BLOCK
+        name: '&6&l✧ &e&lToken Multiplier &a(MAXED)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Level: &7100'
-          - '<#97CFF5>&l| &fMultiplier: &a+2.00x'
+          - '&8▸ &7Boost your token earnings'
+          - '&8  &7from all sources!'
           - '&7'
-          - '&aYou have reached the maximum'
-          - '&atoken multiplier!'
+          - '&8┃ &fLevel: &a100&8/&6100 &a✔'
+          - '&8┃ &fBonus: &a+2.00x tokens'
+          - '&7'
+          - '&a✔ Maximum level reached!'
         sound:
           type: VILLAGER_YES
           volume: 0.2
           pitch: 0.2
       no-next-level:
-        type: GOLD_NUGGET
-        name: '&a&lToken Multiplier &7(MAX)'
+        type: GOLD_BLOCK
+        name: '&6&l✧ &e&lToken Multiplier &a(MAXED)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Level: &7100'
-          - '<#97CFF5>&l| &fMultiplier: &a+2.00x'
+          - '&8▸ &7Boost your token earnings'
+          - '&8  &7from all sources!'
           - '&7'
-          - '&aYou have reached the maximum'
-          - '&atoken multiplier!'
+          - '&8┃ &fLevel: &a100&8/&6100 &a✔'
+          - '&8┃ &fBonus: &a+2.00x tokens'
+          - '&7'
+          - '&a✔ Maximum level reached!'
         sound:
           type: VILLAGER_YES
           volume: 0.2
@@ -102,64 +110,68 @@ upgrades:
     '1':
       has-next-level:
         type: EMERALD
-        name: '<#97CFF5>&lMoney Multiplier'
+        name: '&2&l✧ &a&lMoney Multiplier &2&l✧'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Level: &71'
-          - '<#97CFF5>&l| &fNext Level: &72'
+          - '&8▸ &7Boost your money earnings'
+          - '&8  &7from all sources!'
           - '&7'
-          - '&7Increase your money earnings'
-          - '&7from all sources.'
+          - '&8┃ &fCurrent Level: &a1&8/&2100'
+          - '&8┃ &fMultiplier: &a+0.02x &7per level'
+          - '&8┃ &fMax Bonus: &a+2.00x'
           - '&7'
-          - '<#97CFF5>&l| &fMultiplier: &7+0.02x per level'
-          - '<#97CFF5>&l| &fMax Level: &7100'
-          - '<#97CFF5>&l| &fCost: &71 Team Point'
+          - '&8┃ &fCost: &b1 Team Point'
           - '&7'
-          - '&8(( &fClick &7to purchase &8))'
+          - '&a▶ Click to upgrade!'
         sound:
           type: ORB_PICKUP
           volume: 0.2
           pitch: 0.2
       no-next-level:
         type: EMERALD
-        name: '<#97CFF5>&lMoney Multiplier &c(Locked)'
+        name: '&2&l✧ &a&lMoney Multiplier &c(Locked)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Level: &71'
+          - '&8▸ &7Boost your money earnings'
+          - '&8  &7from all sources!'
           - '&7'
-          - '&7Increase your money earnings'
-          - '&7from all sources.'
+          - '&8┃ &fCurrent Level: &a1&8/&2100'
+          - '&8┃ &fMultiplier: &a+0.02x &7per level'
           - '&7'
-          - '&cNot enough team points!'
+          - '&c✘ Not enough team points!'
         sound:
           type: VILLAGER_NO
           volume: 0.2
           pitch: 0.2
     '100':
       has-next-level:
-        type: EMERALD
-        name: '&a&lMoney Multiplier &7(MAX)'
+        type: EMERALD_BLOCK
+        name: '&2&l✧ &a&lMoney Multiplier &a(MAXED)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Level: &7100'
-          - '<#97CFF5>&l| &fMultiplier: &a+2.00x'
+          - '&8▸ &7Boost your money earnings'
+          - '&8  &7from all sources!'
           - '&7'
-          - '&aYou have reached the maximum'
-          - '&amoney multiplier!'
+          - '&8┃ &fLevel: &a100&8/&2100 &a✔'
+          - '&8┃ &fBonus: &a+2.00x money'
+          - '&7'
+          - '&a✔ Maximum level reached!'
         sound:
           type: VILLAGER_YES
           volume: 0.2
           pitch: 0.2
       no-next-level:
-        type: EMERALD
-        name: '&a&lMoney Multiplier &7(MAX)'
+        type: EMERALD_BLOCK
+        name: '&2&l✧ &a&lMoney Multiplier &a(MAXED)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Level: &7100'
-          - '<#97CFF5>&l| &fMultiplier: &a+2.00x'
+          - '&8▸ &7Boost your money earnings'
+          - '&8  &7from all sources!'
           - '&7'
-          - '&aYou have reached the maximum'
-          - '&amoney multiplier!'
+          - '&8┃ &fLevel: &a100&8/&2100 &a✔'
+          - '&8┃ &fBonus: &a+2.00x money'
+          - '&7'
+          - '&a✔ Maximum level reached!'
         sound:
           type: VILLAGER_YES
           volume: 0.2
@@ -169,64 +181,68 @@ upgrades:
     '1':
       has-next-level:
         type: EXPERIENCE_BOTTLE
-        name: '<#97CFF5>&lEXP Multiplier'
+        name: '&d&l✧ &5&lEXP Multiplier &d&l✧'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Level: &71'
-          - '<#97CFF5>&l| &fNext Level: &72'
+          - '&8▸ &7Boost your experience gains'
+          - '&8  &7from all sources!'
           - '&7'
-          - '&7Increase your experience earnings'
-          - '&7from all sources.'
+          - '&8┃ &fCurrent Level: &d1&8/&5100'
+          - '&8┃ &fMultiplier: &a+0.02x &7per level'
+          - '&8┃ &fMax Bonus: &a+2.00x'
           - '&7'
-          - '<#97CFF5>&l| &fMultiplier: &7+0.02x per level'
-          - '<#97CFF5>&l| &fMax Level: &7100'
-          - '<#97CFF5>&l| &fCost: &71 Team Point'
+          - '&8┃ &fCost: &b1 Team Point'
           - '&7'
-          - '&8(( &fClick &7to purchase &8))'
+          - '&a▶ Click to upgrade!'
         sound:
           type: ORB_PICKUP
           volume: 0.2
           pitch: 0.2
       no-next-level:
         type: EXPERIENCE_BOTTLE
-        name: '<#97CFF5>&lEXP Multiplier &c(Locked)'
+        name: '&d&l✧ &5&lEXP Multiplier &c(Locked)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Level: &71'
+          - '&8▸ &7Boost your experience gains'
+          - '&8  &7from all sources!'
           - '&7'
-          - '&7Increase your experience earnings'
-          - '&7from all sources.'
+          - '&8┃ &fCurrent Level: &d1&8/&5100'
+          - '&8┃ &fMultiplier: &a+0.02x &7per level'
           - '&7'
-          - '&cNot enough team points!'
+          - '&c✘ Not enough team points!'
         sound:
           type: VILLAGER_NO
           volume: 0.2
           pitch: 0.2
     '100':
       has-next-level:
-        type: EXPERIENCE_BOTTLE
-        name: '&a&lEXP Multiplier &7(MAX)'
+        type: ENCHANTING_TABLE
+        name: '&d&l✧ &5&lEXP Multiplier &a(MAXED)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Level: &7100'
-          - '<#97CFF5>&l| &fMultiplier: &a+2.00x'
+          - '&8▸ &7Boost your experience gains'
+          - '&8  &7from all sources!'
           - '&7'
-          - '&aYou have reached the maximum'
-          - '&aEXP multiplier!'
+          - '&8┃ &fLevel: &a100&8/&5100 &a✔'
+          - '&8┃ &fBonus: &a+2.00x experience'
+          - '&7'
+          - '&a✔ Maximum level reached!'
         sound:
           type: VILLAGER_YES
           volume: 0.2
           pitch: 0.2
       no-next-level:
-        type: EXPERIENCE_BOTTLE
-        name: '&a&lEXP Multiplier &7(MAX)'
+        type: ENCHANTING_TABLE
+        name: '&d&l✧ &5&lEXP Multiplier &a(MAXED)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Level: &7100'
-          - '<#97CFF5>&l| &fMultiplier: &a+2.00x'
+          - '&8▸ &7Boost your experience gains'
+          - '&8  &7from all sources!'
           - '&7'
-          - '&aYou have reached the maximum'
-          - '&aEXP multiplier!'
+          - '&8┃ &fLevel: &a100&8/&5100 &a✔'
+          - '&8┃ &fBonus: &a+2.00x experience'
+          - '&7'
+          - '&a✔ Maximum level reached!'
         sound:
           type: VILLAGER_YES
           volume: 0.2
@@ -235,64 +251,69 @@ upgrades:
     item: '&'
     '1':
       has-next-level:
-        type: DISPENSER
-        name: '<#97CFF5>&lGendrops Speedboost'
+        type: CLOCK
+        name: '&b&l✧ &3&lGendrops Speed &b&l✧'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Level: &71'
-          - '<#97CFF5>&l| &fNext Level: &72'
+          - '&8▸ &7Increase the speed of your'
+          - '&8  &7generators and drops!'
           - '&7'
-          - '&7Increase the speed of your'
-          - '&7generators and drops.'
+          - '&8┃ &fCurrent Level: &b1&8/&310'
+          - '&8┃ &fSpeed: &a+10% &7per level'
+          - '&8┃ &fMax Bonus: &a+100%'
           - '&7'
-          - '<#97CFF5>&l| &fSpeed Boost: &7+10% per level'
-          - '<#97CFF5>&l| &fCost: &72 Team Points'
+          - '&8┃ &fCost: &b1 Team Point'
           - '&7'
-          - '&8(( &fClick &7to purchase &8))'
+          - '&a▶ Click to upgrade!'
         sound:
           type: ORB_PICKUP
           volume: 0.2
           pitch: 0.2
       no-next-level:
-        type: DISPENSER
-        name: '<#97CFF5>&lGendrops Speedboost &c(Locked)'
+        type: CLOCK
+        name: '&b&l✧ &3&lGendrops Speed &c(Locked)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Level: &71'
+          - '&8▸ &7Increase the speed of your'
+          - '&8  &7generators and drops!'
           - '&7'
-          - '&7Increase the speed of your'
-          - '&7generators and drops.'
+          - '&8┃ &fCurrent Level: &b1&8/&310'
+          - '&8┃ &fSpeed: &a+10% &7per level'
           - '&7'
-          - '&cNot enough team points!'
+          - '&c✘ Not enough team points!'
         sound:
           type: VILLAGER_NO
           volume: 0.2
           pitch: 0.2
     '10':
       has-next-level:
-        type: DISPENSER
-        name: '&a&lGendrops Speedboost &7(MAX)'
+        type: BEACON
+        name: '&b&l✧ &3&lGendrops Speed &a(MAXED)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Level: &710'
-          - '<#97CFF5>&l| &fSpeed Boost: &a+100%'
+          - '&8▸ &7Increase the speed of your'
+          - '&8  &7generators and drops!'
           - '&7'
-          - '&aYou have reached the maximum'
-          - '&agendrops speed!'
+          - '&8┃ &fLevel: &a10&8/&310 &a✔'
+          - '&8┃ &fBonus: &a+100% speed'
+          - '&7'
+          - '&a✔ Maximum level reached!'
         sound:
           type: VILLAGER_YES
           volume: 0.2
           pitch: 0.2
       no-next-level:
-        type: DISPENSER
-        name: '&a&lGendrops Speedboost &7(MAX)'
+        type: BEACON
+        name: '&b&l✧ &3&lGendrops Speed &a(MAXED)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Level: &710'
-          - '<#97CFF5>&l| &fSpeed Boost: &a+100%'
+          - '&8▸ &7Increase the speed of your'
+          - '&8  &7generators and drops!'
           - '&7'
-          - '&aYou have reached the maximum'
-          - '&agendrops speed!'
+          - '&8┃ &fLevel: &a10&8/&310 &a✔'
+          - '&8┃ &fBonus: &a+100% speed'
+          - '&7'
+          - '&a✔ Maximum level reached!'
         sound:
           type: VILLAGER_YES
           volume: 0.2
@@ -301,62 +322,70 @@ upgrades:
     item: '*'
     '1':
       has-next-level:
-        type: BARRIER
-        name: '<#97CFF5>&lIsland Size'
+        type: OAK_FENCE
+        name: '&e&l✧ &6&lIsland Size &e&l✧'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Size: &7125x125'
-          - '<#97CFF5>&l| &fNext Size: &7150x150'
+          - '&8▸ &7Expand your island border'
+          - '&8  &7to build more!'
           - '&7'
-          - '&7Expand your island border'
-          - '&7to build more!'
+          - '&8┃ &fCurrent Level: &e1&8/&65'
+          - '&8┃ &fCurrent Size: &f125x125'
+          - '&8┃ &fNext Size: &a156x156'
+          - '&8┃ &fMax Size: &a250x250'
           - '&7'
-          - '<#97CFF5>&l| &fMax Size: &7250x250'
-          - '<#97CFF5>&l| &fCost: &75 Team Points'
+          - '&8┃ &fCost: &b5 Team Points'
           - '&7'
-          - '&8(( &fClick &7to purchase &8))'
+          - '&a▶ Click to upgrade!'
         sound:
           type: ORB_PICKUP
           volume: 0.2
           pitch: 0.2
       no-next-level:
-        type: BARRIER
-        name: '<#97CFF5>&lIsland Size &c(Locked)'
+        type: OAK_FENCE
+        name: '&e&l✧ &6&lIsland Size &c(Locked)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Size: &7125x125'
+          - '&8▸ &7Expand your island border'
+          - '&8  &7to build more!'
           - '&7'
-          - '&7Expand your island border'
-          - '&7to build more!'
+          - '&8┃ &fCurrent Level: &e1&8/&65'
+          - '&8┃ &fCurrent Size: &f125x125'
           - '&7'
-          - '&cNot enough team points!'
+          - '&c✘ Not enough team points!'
         sound:
           type: VILLAGER_NO
           volume: 0.2
           pitch: 0.2
     '5':
       has-next-level:
-        type: BARRIER
-        name: '&a&lIsland Size &7(MAX)'
+        type: NETHER_STAR
+        name: '&e&l✧ &6&lIsland Size &a(MAXED)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Size: &7250x250'
+          - '&8▸ &7Expand your island border'
+          - '&8  &7to build more!'
           - '&7'
-          - '&aYou have reached the maximum'
-          - '&aisland size!'
+          - '&8┃ &fLevel: &a5&8/&65 &a✔'
+          - '&8┃ &fSize: &a250x250'
+          - '&7'
+          - '&a✔ Maximum level reached!'
         sound:
           type: VILLAGER_YES
           volume: 0.2
           pitch: 0.2
       no-next-level:
-        type: BARRIER
-        name: '&a&lIsland Size &7(MAX)'
+        type: NETHER_STAR
+        name: '&e&l✧ &6&lIsland Size &a(MAXED)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Size: &7250x250'
+          - '&8▸ &7Expand your island border'
+          - '&8  &7to build more!'
           - '&7'
-          - '&aYou have reached the maximum'
-          - '&aisland size!'
+          - '&8┃ &fLevel: &a5&8/&65 &a✔'
+          - '&8┃ &fSize: &a250x250'
+          - '&7'
+          - '&a✔ Maximum level reached!'
         sound:
           type: VILLAGER_YES
           volume: 0.2
@@ -366,61 +395,69 @@ upgrades:
     '1':
       has-next-level:
         type: HOPPER
-        name: '<#97CFF5>&lHopper Limit'
+        name: '&7&l✧ &f&lHopper Limit &7&l✧'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Limit: &750 per player'
-          - '<#97CFF5>&l| &fNext Limit: &7100 per player'
+          - '&8▸ &7Increase your hopper'
+          - '&8  &7placement limit per player!'
           - '&7'
-          - '&7Increase your hopper placement'
-          - '&7limit per player.'
+          - '&8┃ &fCurrent Level: &71&8/&f3'
+          - '&8┃ &fCurrent Limit: &f50 &7per player'
+          - '&8┃ &fNext Limit: &a100 &7per player'
+          - '&8┃ &fMax Limit: &a150 &7per player'
           - '&7'
-          - '<#97CFF5>&l| &fLevels: &73 total'
-          - '<#97CFF5>&l| &fCost: &75 Team Points per level'
+          - '&8┃ &fCost: &b5 Team Points'
           - '&7'
-          - '&8(( &fClick &7to purchase &8))'
+          - '&a▶ Click to upgrade!'
         sound:
           type: ORB_PICKUP
           volume: 0.2
           pitch: 0.2
       no-next-level:
         type: HOPPER
-        name: '<#97CFF5>&lHopper Limit &c(Locked)'
+        name: '&7&l✧ &f&lHopper Limit &c(Locked)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Limit: &750 per player'
+          - '&8▸ &7Increase your hopper'
+          - '&8  &7placement limit per player!'
           - '&7'
-          - '&7Increase your hopper placement'
-          - '&7limit per player.'
+          - '&8┃ &fCurrent Level: &71&8/&f3'
+          - '&8┃ &fCurrent Limit: &f50 &7per player'
           - '&7'
-          - '&cNot enough team points!'
+          - '&c✘ Not enough team points!'
         sound:
           type: VILLAGER_NO
           volume: 0.2
           pitch: 0.2
     '3':
       has-next-level:
-        type: HOPPER
-        name: '&a&lHopper Limit &7(MAX)'
+        type: HOPPER_MINECART
+        name: '&7&l✧ &f&lHopper Limit &a(MAXED)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Limit: &7150 per player'
+          - '&8▸ &7Increase your hopper'
+          - '&8  &7placement limit per player!'
           - '&7'
-          - '&aYou have reached the maximum'
-          - '&ahopper limit!'
+          - '&8┃ &fLevel: &a3&8/&f3 &a✔'
+          - '&8┃ &fLimit: &a150 &7per player'
+          - '&7'
+          - '&a✔ Maximum level reached!'
         sound:
           type: VILLAGER_YES
           volume: 0.2
           pitch: 0.2
       no-next-level:
-        type: HOPPER
-        name: '&a&lHopper Limit &7(MAX)'
+        type: HOPPER_MINECART
+        name: '&7&l✧ &f&lHopper Limit &a(MAXED)'
         lore:
           - '&7'
-          - '<#97CFF5>&l| &fCurrent Limit: &7150 per player'
+          - '&8▸ &7Increase your hopper'
+          - '&8  &7placement limit per player!'
           - '&7'
-          - '&aYou have reached the maximum'
-          - '&ahopper limit!'
+          - '&8┃ &fLevel: &a3&8/&f3 &a✔'
+          - '&8┃ &fLimit: &a150 &7per player'
+          - '&7'
+          - '&a✔ Maximum level reached!'
         sound:
           type: VILLAGER_YES
           volume: 0.2
@@ -429,33 +466,33 @@ upgrades:
 sounds:
   '@':
     type: ORB_PICKUP
-    volume: 0.2
-    pitch: 0.2
+    volume: 0.3
+    pitch: 1.2
   '%':
     type: ORB_PICKUP
-    volume: 0.2
-    pitch: 0.2
+    volume: 0.3
+    pitch: 1.2
   '^':
     type: ORB_PICKUP
-    volume: 0.2
-    pitch: 0.2
+    volume: 0.3
+    pitch: 1.2
   '&':
     type: ORB_PICKUP
-    volume: 0.2
-    pitch: 0.2
+    volume: 0.3
+    pitch: 1.2
   '*':
     type: ORB_PICKUP
-    volume: 0.2
-    pitch: 0.2
+    volume: 0.3
+    pitch: 1.2
   '~':
     type: ORB_PICKUP
-    volume: 0.2
-    pitch: 0.2
+    volume: 0.3
+    pitch: 1.2
   '!':
-    type: ORB_PICKUP
-    volume: 0.2
-    pitch: 0.2
+    type: UI_BUTTON_CLICK
+    volume: 0.3
+    pitch: 1.0
 
 commands:
   '!':
-    - '[player] is panel'
+    - '[back]'
