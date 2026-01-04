@@ -9,6 +9,7 @@ import java.util.EnumMap;
 import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 import java.util.function.Predicate;
 
@@ -129,6 +130,14 @@ public enum Materials {
 
     public static String patchOldMaterialName(String type) {
         return PATCHED_MATERIAL_NAMES.getOrDefault(type, type);
+    }
+
+    public static Optional<Materials> fromLegacyName(String legacyName) {
+        for (Materials material : values()) {
+            if (material.bukkitType.equalsIgnoreCase(legacyName))
+                return Optional.of(material);
+        }
+        return Optional.empty();
     }
 
     public static void init() {

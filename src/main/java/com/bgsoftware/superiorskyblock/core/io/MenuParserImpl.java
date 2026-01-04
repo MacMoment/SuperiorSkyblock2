@@ -12,6 +12,7 @@ import com.bgsoftware.superiorskyblock.api.world.GameSound;
 import com.bgsoftware.superiorskyblock.core.EnumHelper;
 import com.bgsoftware.superiorskyblock.core.GameSoundImpl;
 import com.bgsoftware.superiorskyblock.core.LazyReference;
+import com.bgsoftware.superiorskyblock.core.Materials;
 import com.bgsoftware.superiorskyblock.core.formatting.Formatters;
 import com.bgsoftware.superiorskyblock.core.itemstack.ItemBuilder;
 import com.bgsoftware.superiorskyblock.core.itemstack.MinecraftNamesMapper;
@@ -302,10 +303,10 @@ public class MenuParserImpl implements MenuParser {
                     String[] materialSections = materialType.toUpperCase(Locale.ENGLISH).split(":");
                     if (materialSections.length < 2)
                         throw new IllegalArgumentException();
-                    type = Material.valueOf(materialSections[0]);
+                    type = getMaterial(materialSections[0]);
                     data = Short.parseShort(materialSections[1]);
                 } else {
-                    type = Material.valueOf(materialType.toUpperCase(Locale.ENGLISH));
+                    type = getMaterial(materialType);
                     data = (short) section.getInt("data");
                 }
             } catch (IllegalArgumentException error) {
@@ -492,6 +493,21 @@ public class MenuParserImpl implements MenuParser {
 
         return Optional.ofNullable(enumCreator.apply(mappedName.toUpperCase(Locale.ENGLISH)))
                 .orElseThrow(() -> new IllegalArgumentException("No enum constant " + type.getCanonicalName() + "." + name));
+    }
+
+    private static Material getMaterial(String materialType) {
+        String normalizedMaterialType = materialType.toUpperCase(Locale.ENGLISH);
+        try {
+            return Material.valueOf(normalizedMaterialType);
+        } catch (IllegalArgumentException error) {
+            try {
+                return Materials.valueOf(normalizedMaterialType).toBukkitType();
+            } catch (IllegalArgumentException ignored) {
+                return Materials.fromLegacyName(normalizedMaterialType)
+                        .map(Materials::toBukkitType)
+                        .orElseThrow(() -> error);
+            }
+        }
     }
 
     public interface IMenuConverter {
