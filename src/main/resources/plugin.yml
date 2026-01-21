@@ -239,6 +239,8 @@ permissions:
             description: Toggle island fly for another player.
           superior.admin.givedisbands:
             description: Give disbands to a player.
+          superior.admin.giveteampoints:
+            description: Give team points to an island.
           superior.admin.ignore:
             description: Ignore an island from top islands.
           superior.admin.join:
@@ -327,6 +329,8 @@ permissions:
             description: Set the spawner rates multiplier for another player's island.
           superior.admin.setteamlimit:
             description: Set members limit for another player's island.
+          superior.admin.setteampoints:
+            description: Set team points for an island.
           superior.admin.settings:
             description: Open the plugin settings editor.
           superior.admin.setupgrade:
