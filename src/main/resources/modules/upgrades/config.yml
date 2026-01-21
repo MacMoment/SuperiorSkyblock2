@@ -55,6 +55,588 @@ upgrades:
       commands:
         - 'island admin setupgrade %player% token-multi 3'
         - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 3! (+0.06x)'
+    '3':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 4'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 4! (+0.08x)'
+    '4':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 5'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 5! (+0.10x)'
+    '5':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 6'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 6! (+0.12x)'
+    '6':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 7'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 7! (+0.14x)'
+    '7':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 8'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 8! (+0.16x)'
+    '8':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 9'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 9! (+0.18x)'
+    '9':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 10'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 10! (+0.20x)'
+    '10':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 11'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 11! (+0.22x)'
+    '11':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 12'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 12! (+0.24x)'
+    '12':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 13'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 13! (+0.26x)'
+    '13':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 14'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 14! (+0.28x)'
+    '14':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 15'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 15! (+0.30x)'
+    '15':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 16'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 16! (+0.32x)'
+    '16':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 17'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 17! (+0.34x)'
+    '17':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 18'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 18! (+0.36x)'
+    '18':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 19'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 19! (+0.38x)'
+    '19':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 20'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 20! (+0.40x)'
+    '20':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 21'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 21! (+0.42x)'
+    '21':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 22'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 22! (+0.44x)'
+    '22':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 23'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 23! (+0.46x)'
+    '23':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 24'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 24! (+0.48x)'
+    '24':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 25'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 25! (+0.50x)'
+    '25':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 26'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 26! (+0.52x)'
+    '26':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 27'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 27! (+0.54x)'
+    '27':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 28'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 28! (+0.56x)'
+    '28':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 29'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 29! (+0.58x)'
+    '29':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 30'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 30! (+0.60x)'
+    '30':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 31'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 31! (+0.62x)'
+    '31':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 32'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 32! (+0.64x)'
+    '32':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 33'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 33! (+0.66x)'
+    '33':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 34'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 34! (+0.68x)'
+    '34':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 35'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 35! (+0.70x)'
+    '35':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 36'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 36! (+0.72x)'
+    '36':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 37'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 37! (+0.74x)'
+    '37':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 38'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 38! (+0.76x)'
+    '38':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 39'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 39! (+0.78x)'
+    '39':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 40'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 40! (+0.80x)'
+    '40':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 41'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 41! (+0.82x)'
+    '41':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 42'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 42! (+0.84x)'
+    '42':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 43'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 43! (+0.86x)'
+    '43':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 44'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 44! (+0.88x)'
+    '44':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 45'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 45! (+0.90x)'
+    '45':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 46'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 46! (+0.92x)'
+    '46':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 47'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 47! (+0.94x)'
+    '47':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 48'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 48! (+0.96x)'
+    '48':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 49'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 49! (+0.98x)'
+    '49':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 50'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 50! (+1.00x)'
+    '50':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 51'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 51! (+1.02x)'
+    '51':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 52'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 52! (+1.04x)'
+    '52':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 53'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 53! (+1.06x)'
+    '53':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 54'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 54! (+1.08x)'
+    '54':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 55'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 55! (+1.10x)'
+    '55':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 56'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 56! (+1.12x)'
+    '56':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 57'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 57! (+1.14x)'
+    '57':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 58'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 58! (+1.16x)'
+    '58':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 59'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 59! (+1.18x)'
+    '59':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 60'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 60! (+1.20x)'
+    '60':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 61'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 61! (+1.22x)'
+    '61':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 62'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 62! (+1.24x)'
+    '62':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 63'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 63! (+1.26x)'
+    '63':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 64'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 64! (+1.28x)'
+    '64':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 65'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 65! (+1.30x)'
+    '65':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 66'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 66! (+1.32x)'
+    '66':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 67'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 67! (+1.34x)'
+    '67':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 68'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 68! (+1.36x)'
+    '68':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 69'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 69! (+1.38x)'
+    '69':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 70'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 70! (+1.40x)'
+    '70':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 71'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 71! (+1.42x)'
+    '71':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 72'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 72! (+1.44x)'
+    '72':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 73'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 73! (+1.46x)'
+    '73':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 74'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 74! (+1.48x)'
+    '74':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 75'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 75! (+1.50x)'
+    '75':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 76'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 76! (+1.52x)'
+    '76':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 77'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 77! (+1.54x)'
+    '77':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 78'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 78! (+1.56x)'
+    '78':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 79'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 79! (+1.58x)'
+    '79':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 80'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 80! (+1.60x)'
+    '80':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 81'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 81! (+1.62x)'
+    '81':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 82'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 82! (+1.64x)'
+    '82':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 83'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 83! (+1.66x)'
+    '83':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 84'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 84! (+1.68x)'
+    '84':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 85'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 85! (+1.70x)'
+    '85':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 86'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 86! (+1.72x)'
+    '86':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 87'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 87! (+1.74x)'
+    '87':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 88'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 88! (+1.76x)'
+    '88':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 89'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 89! (+1.78x)'
+    '89':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 90'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 90! (+1.80x)'
+    '90':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 91'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 91! (+1.82x)'
+    '91':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 92'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 92! (+1.84x)'
+    '92':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 93'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 93! (+1.86x)'
+    '93':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 94'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 94! (+1.88x)'
+    '94':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 95'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 95! (+1.90x)'
+    '95':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 96'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 96! (+1.92x)'
+    '96':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 97'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 97! (+1.94x)'
+    '97':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 98'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 98! (+1.96x)'
+    '98':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 99'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 99! (+1.98x)'
+    '99':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% token-multi 100'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Token Multiplier upgraded to Level 100! (+2.00x)'
     '100':
       price: 0.0
       price-type: "teampoints"
@@ -73,6 +655,588 @@ upgrades:
       commands:
         - 'island admin setupgrade %player% money-multi 3'
         - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 3! (+0.06x)'
+    '3':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 4'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 4! (+0.08x)'
+    '4':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 5'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 5! (+0.10x)'
+    '5':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 6'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 6! (+0.12x)'
+    '6':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 7'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 7! (+0.14x)'
+    '7':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 8'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 8! (+0.16x)'
+    '8':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 9'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 9! (+0.18x)'
+    '9':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 10'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 10! (+0.20x)'
+    '10':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 11'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 11! (+0.22x)'
+    '11':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 12'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 12! (+0.24x)'
+    '12':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 13'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 13! (+0.26x)'
+    '13':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 14'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 14! (+0.28x)'
+    '14':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 15'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 15! (+0.30x)'
+    '15':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 16'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 16! (+0.32x)'
+    '16':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 17'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 17! (+0.34x)'
+    '17':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 18'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 18! (+0.36x)'
+    '18':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 19'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 19! (+0.38x)'
+    '19':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 20'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 20! (+0.40x)'
+    '20':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 21'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 21! (+0.42x)'
+    '21':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 22'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 22! (+0.44x)'
+    '22':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 23'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 23! (+0.46x)'
+    '23':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 24'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 24! (+0.48x)'
+    '24':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 25'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 25! (+0.50x)'
+    '25':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 26'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 26! (+0.52x)'
+    '26':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 27'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 27! (+0.54x)'
+    '27':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 28'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 28! (+0.56x)'
+    '28':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 29'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 29! (+0.58x)'
+    '29':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 30'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 30! (+0.60x)'
+    '30':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 31'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 31! (+0.62x)'
+    '31':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 32'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 32! (+0.64x)'
+    '32':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 33'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 33! (+0.66x)'
+    '33':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 34'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 34! (+0.68x)'
+    '34':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 35'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 35! (+0.70x)'
+    '35':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 36'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 36! (+0.72x)'
+    '36':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 37'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 37! (+0.74x)'
+    '37':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 38'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 38! (+0.76x)'
+    '38':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 39'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 39! (+0.78x)'
+    '39':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 40'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 40! (+0.80x)'
+    '40':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 41'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 41! (+0.82x)'
+    '41':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 42'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 42! (+0.84x)'
+    '42':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 43'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 43! (+0.86x)'
+    '43':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 44'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 44! (+0.88x)'
+    '44':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 45'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 45! (+0.90x)'
+    '45':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 46'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 46! (+0.92x)'
+    '46':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 47'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 47! (+0.94x)'
+    '47':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 48'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 48! (+0.96x)'
+    '48':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 49'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 49! (+0.98x)'
+    '49':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 50'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 50! (+1.00x)'
+    '50':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 51'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 51! (+1.02x)'
+    '51':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 52'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 52! (+1.04x)'
+    '52':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 53'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 53! (+1.06x)'
+    '53':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 54'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 54! (+1.08x)'
+    '54':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 55'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 55! (+1.10x)'
+    '55':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 56'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 56! (+1.12x)'
+    '56':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 57'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 57! (+1.14x)'
+    '57':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 58'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 58! (+1.16x)'
+    '58':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 59'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 59! (+1.18x)'
+    '59':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 60'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 60! (+1.20x)'
+    '60':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 61'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 61! (+1.22x)'
+    '61':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 62'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 62! (+1.24x)'
+    '62':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 63'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 63! (+1.26x)'
+    '63':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 64'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 64! (+1.28x)'
+    '64':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 65'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 65! (+1.30x)'
+    '65':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 66'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 66! (+1.32x)'
+    '66':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 67'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 67! (+1.34x)'
+    '67':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 68'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 68! (+1.36x)'
+    '68':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 69'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 69! (+1.38x)'
+    '69':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 70'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 70! (+1.40x)'
+    '70':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 71'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 71! (+1.42x)'
+    '71':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 72'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 72! (+1.44x)'
+    '72':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 73'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 73! (+1.46x)'
+    '73':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 74'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 74! (+1.48x)'
+    '74':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 75'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 75! (+1.50x)'
+    '75':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 76'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 76! (+1.52x)'
+    '76':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 77'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 77! (+1.54x)'
+    '77':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 78'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 78! (+1.56x)'
+    '78':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 79'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 79! (+1.58x)'
+    '79':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 80'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 80! (+1.60x)'
+    '80':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 81'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 81! (+1.62x)'
+    '81':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 82'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 82! (+1.64x)'
+    '82':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 83'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 83! (+1.66x)'
+    '83':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 84'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 84! (+1.68x)'
+    '84':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 85'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 85! (+1.70x)'
+    '85':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 86'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 86! (+1.72x)'
+    '86':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 87'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 87! (+1.74x)'
+    '87':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 88'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 88! (+1.76x)'
+    '88':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 89'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 89! (+1.78x)'
+    '89':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 90'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 90! (+1.80x)'
+    '90':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 91'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 91! (+1.82x)'
+    '91':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 92'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 92! (+1.84x)'
+    '92':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 93'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 93! (+1.86x)'
+    '93':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 94'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 94! (+1.88x)'
+    '94':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 95'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 95! (+1.90x)'
+    '95':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 96'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 96! (+1.92x)'
+    '96':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 97'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 97! (+1.94x)'
+    '97':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 98'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 98! (+1.96x)'
+    '98':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 99'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 99! (+1.98x)'
+    '99':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% money-multi 100'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Money Multiplier upgraded to Level 100! (+2.00x)'
     '100':
       price: 0.0
       price-type: "teampoints"
@@ -91,6 +1255,588 @@ upgrades:
       commands:
         - 'island admin setupgrade %player% exp-multi 3'
         - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 3! (+0.06x)'
+    '3':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 4'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 4! (+0.08x)'
+    '4':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 5'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 5! (+0.10x)'
+    '5':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 6'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 6! (+0.12x)'
+    '6':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 7'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 7! (+0.14x)'
+    '7':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 8'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 8! (+0.16x)'
+    '8':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 9'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 9! (+0.18x)'
+    '9':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 10'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 10! (+0.20x)'
+    '10':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 11'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 11! (+0.22x)'
+    '11':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 12'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 12! (+0.24x)'
+    '12':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 13'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 13! (+0.26x)'
+    '13':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 14'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 14! (+0.28x)'
+    '14':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 15'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 15! (+0.30x)'
+    '15':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 16'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 16! (+0.32x)'
+    '16':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 17'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 17! (+0.34x)'
+    '17':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 18'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 18! (+0.36x)'
+    '18':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 19'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 19! (+0.38x)'
+    '19':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 20'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 20! (+0.40x)'
+    '20':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 21'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 21! (+0.42x)'
+    '21':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 22'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 22! (+0.44x)'
+    '22':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 23'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 23! (+0.46x)'
+    '23':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 24'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 24! (+0.48x)'
+    '24':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 25'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 25! (+0.50x)'
+    '25':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 26'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 26! (+0.52x)'
+    '26':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 27'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 27! (+0.54x)'
+    '27':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 28'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 28! (+0.56x)'
+    '28':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 29'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 29! (+0.58x)'
+    '29':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 30'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 30! (+0.60x)'
+    '30':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 31'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 31! (+0.62x)'
+    '31':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 32'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 32! (+0.64x)'
+    '32':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 33'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 33! (+0.66x)'
+    '33':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 34'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 34! (+0.68x)'
+    '34':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 35'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 35! (+0.70x)'
+    '35':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 36'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 36! (+0.72x)'
+    '36':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 37'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 37! (+0.74x)'
+    '37':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 38'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 38! (+0.76x)'
+    '38':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 39'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 39! (+0.78x)'
+    '39':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 40'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 40! (+0.80x)'
+    '40':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 41'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 41! (+0.82x)'
+    '41':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 42'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 42! (+0.84x)'
+    '42':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 43'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 43! (+0.86x)'
+    '43':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 44'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 44! (+0.88x)'
+    '44':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 45'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 45! (+0.90x)'
+    '45':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 46'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 46! (+0.92x)'
+    '46':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 47'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 47! (+0.94x)'
+    '47':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 48'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 48! (+0.96x)'
+    '48':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 49'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 49! (+0.98x)'
+    '49':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 50'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 50! (+1.00x)'
+    '50':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 51'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 51! (+1.02x)'
+    '51':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 52'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 52! (+1.04x)'
+    '52':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 53'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 53! (+1.06x)'
+    '53':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 54'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 54! (+1.08x)'
+    '54':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 55'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 55! (+1.10x)'
+    '55':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 56'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 56! (+1.12x)'
+    '56':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 57'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 57! (+1.14x)'
+    '57':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 58'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 58! (+1.16x)'
+    '58':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 59'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 59! (+1.18x)'
+    '59':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 60'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 60! (+1.20x)'
+    '60':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 61'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 61! (+1.22x)'
+    '61':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 62'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 62! (+1.24x)'
+    '62':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 63'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 63! (+1.26x)'
+    '63':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 64'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 64! (+1.28x)'
+    '64':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 65'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 65! (+1.30x)'
+    '65':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 66'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 66! (+1.32x)'
+    '66':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 67'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 67! (+1.34x)'
+    '67':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 68'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 68! (+1.36x)'
+    '68':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 69'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 69! (+1.38x)'
+    '69':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 70'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 70! (+1.40x)'
+    '70':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 71'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 71! (+1.42x)'
+    '71':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 72'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 72! (+1.44x)'
+    '72':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 73'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 73! (+1.46x)'
+    '73':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 74'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 74! (+1.48x)'
+    '74':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 75'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 75! (+1.50x)'
+    '75':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 76'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 76! (+1.52x)'
+    '76':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 77'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 77! (+1.54x)'
+    '77':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 78'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 78! (+1.56x)'
+    '78':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 79'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 79! (+1.58x)'
+    '79':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 80'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 80! (+1.60x)'
+    '80':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 81'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 81! (+1.62x)'
+    '81':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 82'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 82! (+1.64x)'
+    '82':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 83'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 83! (+1.66x)'
+    '83':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 84'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 84! (+1.68x)'
+    '84':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 85'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 85! (+1.70x)'
+    '85':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 86'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 86! (+1.72x)'
+    '86':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 87'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 87! (+1.74x)'
+    '87':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 88'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 88! (+1.76x)'
+    '88':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 89'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 89! (+1.78x)'
+    '89':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 90'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 90! (+1.80x)'
+    '90':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 91'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 91! (+1.82x)'
+    '91':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 92'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 92! (+1.84x)'
+    '92':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 93'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 93! (+1.86x)'
+    '93':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 94'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 94! (+1.88x)'
+    '94':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 95'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 95! (+1.90x)'
+    '95':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 96'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 96! (+1.92x)'
+    '96':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 97'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 97! (+1.94x)'
+    '97':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 98'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 98! (+1.96x)'
+    '98':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 99'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 99! (+1.98x)'
+    '99':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% exp-multi 100'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 EXP Multiplier upgraded to Level 100! (+2.00x)'
     '100':
       price: 0.0
       price-type: "teampoints"
@@ -109,6 +1855,48 @@ upgrades:
       commands:
         - 'island admin setupgrade %player% gendrops-speed 3'
         - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Gendrops Speed upgraded to Level 3! (+30% speed)'
+    '3':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% gendrops-speed 4'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Gendrops Speed upgraded to Level 4! (+40% speed)'
+    '4':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% gendrops-speed 5'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Gendrops Speed upgraded to Level 5! (+50% speed)'
+    '5':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% gendrops-speed 6'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Gendrops Speed upgraded to Level 6! (+60% speed)'
+    '6':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% gendrops-speed 7'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Gendrops Speed upgraded to Level 7! (+70% speed)'
+    '7':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% gendrops-speed 8'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Gendrops Speed upgraded to Level 8! (+80% speed)'
+    '8':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% gendrops-speed 9'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Gendrops Speed upgraded to Level 9! (+90% speed)'
+    '9':
+      price: 1.0
+      price-type: "teampoints"
+      commands:
+        - 'island admin setupgrade %player% gendrops-speed 10'
+        - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Gendrops Speed upgraded to Level 10! (+100% speed)'
     '10':
       price: 0.0
       price-type: "teampoints"
@@ -118,28 +1906,28 @@ upgrades:
     '1':
       price: 5.0
       price-type: "teampoints"
-      border-size: 78
+      border-size: 62
       commands:
         - 'island admin setupgrade %player% border-size 2'
         - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Island Size upgraded to 156x156!'
     '2':
       price: 5.0
       price-type: "teampoints"
-      border-size: 93
+      border-size: 78
       commands:
         - 'island admin setupgrade %player% border-size 3'
         - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Island Size upgraded to 187x187!'
     '3':
       price: 5.0
       price-type: "teampoints"
-      border-size: 109
+      border-size: 93
       commands:
         - 'island admin setupgrade %player% border-size 4'
         - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Island Size upgraded to 218x218!'
     '4':
       price: 5.0
       price-type: "teampoints"
-      border-size: 125
+      border-size: 109
       commands:
         - 'island admin setupgrade %player% border-size 5'
         - 'island admin msgall %player% <#EC8C8C>&lG<#FFC58B>&lE<#FFE295>&lN<#FFFF9E>&lP<#9AFF9A>&lH<#97CFF5>&lO<#9DB5FA>&lR<#A39AFF>&lI<#EEA0FF>&lA &8»&7 Island Size upgraded to 250x250!'
