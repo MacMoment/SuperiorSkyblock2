@@ -38,5 +38,5 @@ jobs:
         if: success()
         with:
           name: SuperiorSkyblock2
-          path: target/*.jar
+          path: target/**/*.jar
           retention-days: 7
